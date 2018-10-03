@@ -1,6 +1,6 @@
 # Practical 4
 
-### Steps
+### First Session (~2/3 Hours)
 - Ran barebones and default john against the hashes on local machine in background while doing some research
 - Brute force crack got 0 after like 30 mins (obviously), restarted with rockyou.txt
 - John / rockyou got nowhere.. Started with noodling with hashcat on my GPU at home
@@ -50,3 +50,7 @@
 - `$argon2i$v=19$m=102400,t=2,p=8$07oXIkRISck5B6D0vtdayw$MInXABfJH6m/LabKeUO/4w`
   - These are argon2 hashes with some parameter info??
 
+
+### 2nd Session
+- I notcied that Hashcat was complaining that my GPU was realtively ancient so I'm going to try run stuff on AWS to see what the projected ETAs will be
+- 

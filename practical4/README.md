@@ -53,4 +53,9 @@
 
 ### 2nd Session
 - I notcied that Hashcat was complaining that my GPU was realtively ancient so I'm going to try run stuff on AWS to see what the projected ETAs will be
-- 
+- Yeah this is considerably faster: 1h 9 mins for DES with full hob064 ruleset..
+- Still getting warning that the hardware has outdated CUDA compute capatability 
+  - This GPU has 3.0 but my GPU and 2.0 --> target is 5.0
+	- Also seeing: Device 5 not a native open cl runtime and to expect massive speed loss - this probably isnty a GPU
+- SHA256 with rockyou is looking like 1 day. This is better than 3 days with my GPU but still not great
+- OVerall performance seems around 3 times better on this GPU

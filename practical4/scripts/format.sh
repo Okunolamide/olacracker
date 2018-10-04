@@ -29,20 +29,15 @@ fi
 awk -F ":" '{print $1, $2}' $infile > $tmpfile
 
 # Fix mismatched DES passwords
-echo "" > $logfile;
 next_line=""
 while read line; do
-  echo "CURRENT LINE: " $line >> $logfile
   next_line=$line
   while read mismatched; do
-  echo "Checking " $mismatched >> $logfile
     if [ "$line" == "$mismatched" ]; then
       next_line=${line:: -1}
-      echo "Match found, breaking" >> $logfile
       break
     fi
   done < $mismatched_hashes
-  printf "\n\n" >> $logfile
   echo $next_line >> $tmpfile2
 done < $tmpfile
 

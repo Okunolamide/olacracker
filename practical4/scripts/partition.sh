@@ -1,7 +1,7 @@
 #! /bin/bash
 
-infile="../hashes/lupos.hashes"
-outdir="../hashes"
+infile="lupos.hashes"
+outdir="hashes"
 
 des="$outdir/DES.hashes"
 md5crypt="$outdir/MD5Crypt.hashes"

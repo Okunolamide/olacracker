@@ -2,6 +2,10 @@
 
 infile=$1
 outfile=$2
+tmpfile="tmp.txt"
+tmpfile2="tmp2.txt"
+logfile="log.txt"
+mismatched_hashes=./mismatched_des.hashes
 
 if [ "$1" == "" ]
 then
@@ -21,4 +25,28 @@ then
   exit
 fi
 
-awk -F ":" '{print $1, $2}' $infile > $outfile
+# Formatting finished at this point
+awk -F ":" '{print $1, $2}' $infile > $tmpfile
+
+# Fix mismatched DES passwords
+echo "" > $logfile;
+next_line=""
+while read line; do
+  echo "CURRENT LINE: " $line >> $logfile
+  next_line=$line
+  while read mismatched; do
+  echo "Checking " $mismatched >> $logfile
+    if [ "$line" == "$mismatched" ]; then
+      next_line=${line:: -1}
+      echo "Match found, breaking" >> $logfile
+      break
+    fi
+  done < $mismatched_hashes
+  printf "\n\n" >> $logfile
+  echo $next_line >> $tmpfile2
+done < $tmpfile
+
+cat $tmpfile2 > $outfile
+
+rm $tmpfile
+rm $tmpfile2

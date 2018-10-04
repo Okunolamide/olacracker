@@ -20,6 +20,10 @@
   - I still missed a bunch of them with rockyou, so I tried adding a rulefile called [hob064](https://github.com/praetorian-inc/Hob0Rules). This gave DES an ETA of 4 hours :z
   - I reduced the number of rules to the first ~30 which brought it down to like 2 hours
     - This found 6 more within a few minutes so probably worth running
+  
+  - After getting the email about char lengths: Copy paste all of the mismatches but they include the line numbers from submmitty
+  - USe `awk -F " " '{print substr($1, 4) " "  $2}' mismatched_des.hashes > tmp.txt` to strip away first 3 chars in this case
+  - Then use format script to remove last character from potfiles.
 
 
 - Next I looked at all the `$1$` which is indicative of md5crypt usually

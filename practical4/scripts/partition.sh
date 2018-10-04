@@ -78,6 +78,8 @@ elif [ "$command" == "progress" ]; then
   getProgress SHA512 $sha512_reg
   getProgress pbkdf2 $pbkdf2_reg
   getProgress argon $argon_reg
+elif [ "$command" == "awkIt" ]; then
+  awkIt $2 $3
 else
   echo "No command given"
 fi

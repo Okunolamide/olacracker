@@ -63,3 +63,15 @@
 	- Also seeing: Device 5 not a native open cl runtime and to expect massive speed loss - this probably isnty a GPU
 - SHA256 with rockyou is looking like 1 day. This is better than 3 days with my GPU but still not great
 - OVerall performance seems around 3 times better on this GPU
+
+
+### John the Ripper
+- List algorithm names
+```shell
+john --list=formats --format=opencl
+```
+- Use four GPUS:
+```shell
+~/coding/password-cracking/practical4$ ~/JohnTheRipper/run/john --wordlist=../dictionaries/rockyou.txt --pot=practical4.potfile
+ --format=md5crypt-opencl --devices=0,1,2,3 --fork=4 hashes/MD5Crypt.hashes
+ ```

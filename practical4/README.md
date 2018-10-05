@@ -75,3 +75,8 @@ john --list=formats --format=opencl
 ~/coding/password-cracking/practical4$ ~/JohnTheRipper/run/john --wordlist=../dictionaries/rockyou.txt --pot=practical4.potfile
  --format=md5crypt-opencl --devices=0,1,2,3 --fork=4 hashes/MD5Crypt.hashes
  ```
+ - Having some success with brute forcing small password lengths
+ - Restore session you forget to name:
+ ```
+ john --restore=/home/stefano/software/john-the-ripper/run/des_bf_4_7_ascii
+ ```

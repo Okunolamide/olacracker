@@ -69,4 +69,5 @@ Looking at pasword distributions..
 - 5 char all lowercase alphabet seems to be a common password
 - Going to also try 4 to 9 length numerics only..
 ```john --pot=practical4.potfile --incremental=4_9_numbers --format=descrypt-opencl hashes/DES.hashes```
+```john --pot=practical4.potfile --incremental=4_9_numbers --format=md5crypt-opencl hashes/MD5Crypt.hashes```
 ``` john --pot=practical4.potfile --incremental=8_char_numbers --format=sha256crypt_opencl --fork=4 --devices=0,1,2,3 --session=sha_8_digits hashes/SHA256.hashes```

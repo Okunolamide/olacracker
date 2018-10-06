@@ -81,7 +81,8 @@ elif [ "$command" == "progress" ]; then
 elif [ "$command" == "awkIt" ]; then
   awkIt $2 $3
 elif [ "$command" == "passwords" ]; then
-  awk -F ":" '{ print length($2) "\t\t\t" $2 "\t\t\t" $1 }' $potfile| sort -n
+	printf "Password Length\t\tHashLength\t\tPassword\t\tHash\n"
+  awk -F ":" '{ print length($2) "\t\t\t" length($1) "\t\t\t" $2 "\t\t\t" $1 }' $potfile| sort -k1 -k2 -n
 else
   echo "No command given"
 fi

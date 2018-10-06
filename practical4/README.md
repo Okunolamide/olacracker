@@ -20,10 +20,6 @@
   - I still missed a bunch of them with rockyou, so I tried adding a rulefile called [hob064](https://github.com/praetorian-inc/Hob0Rules). This gave DES an ETA of 4 hours :z
   - I reduced the number of rules to the first ~30 which brought it down to like 2 hours
     - This found 6 more within a few minutes so probably worth running
-  
-  - After getting the email about char lengths: Copy paste all of the mismatches but they include the line numbers from submmitty
-  - USe `awk -F " " '{print substr($1, 4) " "  $2}' mismatched_des.hashes > tmp.txt` to strip away first 3 chars in this case
-  - Then use format script to remove last character from potfiles.
 
 
 - Next I looked at all the `$1$` which is indicative of md5crypt usually
@@ -63,32 +59,14 @@
 	- Also seeing: Device 5 not a native open cl runtime and to expect massive speed loss - this probably isnty a GPU
 - SHA256 with rockyou is looking like 1 day. This is better than 3 days with my GPU but still not great
 - OVerall performance seems around 3 times better on this GPU
+- Trying md5cript hashes: 
+  - ETA of 37 minutes (vs 4 hours on my GPU) using the optimized one (passwords of up to 15 chars)
+	- Cracking fairly well --> definitely worth running
 
 
-### John the Ripper
-- List algorithm names
-```shell
-john --list=formats --format=opencl
-```
-- Use four GPUS:
-```shell
-~/coding/password-cracking/practical4$ ~/JohnTheRipper/run/john --wordlist=../dictionaries/rockyou.txt --pot=practical4.potfile
- --format=md5crypt-opencl --devices=0,1,2,3 --fork=4 hashes/MD5Crypt.hashes
- ```
- - Having some success with brute forcing small password lengths
- - Restore session you forget to name:
- ```
- john --restore=/home/stefano/software/john-the-ripper/run/des_bf_4_7_ascii
- ```
-
-Limit rockyou
-```
- awk '((length($0) == 6) || (length($0) == 5)) && (/^[a-zA-Z0-9]+$/)' ../dictionaries/rockyou.txt 
- awk '((length($0) == 6) || (length($0) == 5)) && (/^[a-zA-Z]+$/)' ../dictionaries/rockyou.txt 
- awk '((length($0) == 6) || (length($0) == 5))' ../dictionaries/rockyou.txt
-```
-
-Show passwords
-```
-awk -F ":" '{ print length($2) "\t" $2 "\t\t\t" $1 }' practical4.potfile | sort -n
-```
+Pretty sure I lost a bunch of notes but oh well..
+Looking at pasword distributions..
+- 5 char all lowercase alphabet seems to be a common password
+- Going to also try 4 to 9 length numerics only..
+```john --pot=practical4.potfile --incremental=4_9_numbers --format=descrypt-opencl hashes/DES.hashes```
+``` john --pot=practical4.potfile --incremental=8_char_numbers --format=sha256crypt_opencl --fork=4 --devices=0,1,2,3 --session=sha_8_digits hashes/SHA256.hashes```

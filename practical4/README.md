@@ -80,3 +80,15 @@ john --list=formats --format=opencl
  ```
  john --restore=/home/stefano/software/john-the-ripper/run/des_bf_4_7_ascii
  ```
+
+Limit rockyou
+```
+ awk '((length($0) == 6) || (length($0) == 5)) && (/^[a-zA-Z0-9]+$/)' ../dictionaries/rockyou.txt 
+ awk '((length($0) == 6) || (length($0) == 5)) && (/^[a-zA-Z]+$/)' ../dictionaries/rockyou.txt 
+ awk '((length($0) == 6) || (length($0) == 5))' ../dictionaries/rockyou.txt
+```
+
+Show passwords
+```
+awk -F ":" '{ print length($2) "\t" $2 "\t\t\t" $1 }' practical4.potfile | sort -n
+```

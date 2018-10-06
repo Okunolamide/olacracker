@@ -80,6 +80,8 @@ elif [ "$command" == "progress" ]; then
   getProgress argon $argon_reg
 elif [ "$command" == "awkIt" ]; then
   awkIt $2 $3
+elif [ "$command" == "passwords" ]; then
+  awk -F ":" '{ print length($2) "\t\t\t" $2 "\t\t\t" $1 }' $potfile| sort -n
 else
   echo "No command given"
 fi

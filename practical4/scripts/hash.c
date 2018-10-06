@@ -6,7 +6,7 @@
 int main() {
   // char *password = crypt(getpass("PAssword"), NULL);
   unsigned long seed[2];
-  char salt[] = "$1$.......";
+  char salt[] = "$1$........";
   const char *const seedchars =
     "./0123456789ABCDEFGHIJKLMNOPQRST"
     "UVWXYZabcdefghijklmnopqrstuvwxyz";

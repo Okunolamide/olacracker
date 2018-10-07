@@ -69,6 +69,35 @@ function getProgress() {
   printf "$1: %s / %s \n" $(awkIt $2 $potfile | wc -l) $(awkIt $2 $infile | wc -l)
 }
 
+function rockyoucomp() {
+	tmpfile="derp.txt"
+	rockyou="../dictionaries/rockyou.txt"
+	matches=0
+	substrings=0
+	awk -F ":" '{print $2}' $potfile > $tmpfile
+	num_passwords=$(wc -l < $tmpfile)
+	while read password; do
+		# passlen=${#password}
+		# # printf "Checking %s\n" $password
+		# match=$(grep "$password" $rockyou)
+		# # echo $match
+		# len=${#match}
+		# if [ $len -eq $passlen ]; then
+		# 	matches=$((matches+1))
+		# elif [ $len -gt $passlen ]; then
+		# 	substrings=$((substrings+1))
+		if grep -q "^$password$" $rockyou; then
+			matches=$((matches+1))
+			# printf "Found match for %s\n" $password
+		elif grep -q ".*$password.+" $rockyou; then
+			substrings=$((substrings+1))		
+		elif grep -q ".+$password.*" $rockyou; then
+			substrings=$((substrings+1))
+		fi
+	done < $tmpfile
+	printf "%s matches, %s substrings out of %s passwords in rockyou.txt\n" $matches $substrings $num_passwords
+}
+
 if [ "$command" == "partition" ]; then
   partition
 elif [ "$command" == "progress" ]; then
@@ -83,6 +112,8 @@ elif [ "$command" == "awkIt" ]; then
 elif [ "$command" == "passwords" ]; then
 	printf "Password Length\t\tHashLength\t\tPassword\t\tHash\n"
   awk -F ":" '{ print length($2) "\t\t\t" length($1) "\t\t\t" $2 "\t\t\t" $1 }' $potfile| sort -k1 -k2 -n
+elif [ "$command" == "rockyoucomp" ]; then
+	rockyoucomp
 else
   echo "No command given"
 fi

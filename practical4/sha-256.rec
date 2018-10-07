@@ -4,11 +4,10 @@ REC4
 --wordlist=../dictionaries/rockyou.txt
 --rules=Jumbo
 hashes/SHA256.hashes
---session=hello
 --format=sha256crypt-opencl
 --input-encoding=UTF-8
 --internal-codepage=UTF-8
-75980
+75981
 25
 50070000
 0

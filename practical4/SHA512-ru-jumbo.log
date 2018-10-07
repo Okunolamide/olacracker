@@ -1,0 +1,238 @@
+1 0:00:00:00 Starting a new session
+1 0:00:00:00 Loaded a total of 331 password hashes with 331 different salts
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Remaining 314 password hashes with 314 different salts
+1 0:00:00:00 Cost 1 (iteration count) is 5000 for all loaded hashes
+1 0:00:00:00 - Node numbers 1-5 of 5 (fork)
+2 0:00:00:00 Device 1: GRID K520
+2 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --fork=5 --devices=0,1,2,3,4 --format=sha512crypt-opencl --pot=practical4.potfile --wordlist=../dictionaries/rockyou.txt --rules=Jumbo --session=SHA512-ru-jumbo hashes/SHA512.hashes 
+2 0:00:00:00 - UTF-8 input encoding enabled
+2 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+2 0:00:00:00 Sorting salts, for performance
+2 0:00:00:00 - OpenCL LWS: 32, GWS: 49152 (both auto-tuned) (1536 blocks)
+2 0:00:00:00 - Will reject candidates longer than 23 bytes
+2 0:00:00:00 Proceeding with wordlist mode
+2 0:00:00:00 - Rules: Jumbo
+2 0:00:00:00 - Wordlist file: ../dictionaries/rockyou.txt
+2 0:00:00:00 - memory mapping wordlist (139921497 bytes)
+2 0:00:00:01 - loaded this node's share of wordfile ../dictionaries/rockyou.txt into memory (27984275 bytes of 139921497, max_size=2147483648 avg/node)
+2 0:00:00:01 - wordfile had 2868878 lines and required 22951024 bytes for index.
+2 0:00:00:01 - duplicate rule removed at line 936: :
+2 0:00:00:01 - duplicate rule removed at line 936: -s x**
+2 0:00:00:01 - duplicate rule removed at line 938: :
+2 0:00:00:01 - duplicate rule removed at line 939: :
+2 0:00:00:01 - duplicate rule removed at line 940: :
+2 0:00:00:01 - 22296 preprocessed word mangling rules were reduced by dropping 5 rules
+2 0:00:00:01 - 22291 preprocessed word mangling rules
+3 0:00:00:00 Device 2: GRID K520
+3 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --fork=5 --devices=0,1,2,3,4 --format=sha512crypt-opencl --pot=practical4.potfile --wordlist=../dictionaries/rockyou.txt --rules=Jumbo --session=SHA512-ru-jumbo hashes/SHA512.hashes 
+3 0:00:00:00 - UTF-8 input encoding enabled
+3 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+3 0:00:00:00 Sorting salts, for performance
+3 0:00:00:00 - OpenCL LWS: 32, GWS: 49152 (both auto-tuned) (1536 blocks)
+3 0:00:00:00 - Will reject candidates longer than 23 bytes
+3 0:00:00:00 Proceeding with wordlist mode
+3 0:00:00:00 - Rules: Jumbo
+3 0:00:00:00 - Wordlist file: ../dictionaries/rockyou.txt
+3 0:00:00:00 - memory mapping wordlist (139921497 bytes)
+3 0:00:00:01 - loaded this node's share of wordfile ../dictionaries/rockyou.txt into memory (27985652 bytes of 139921497, max_size=2147483648 avg/node)
+3 0:00:00:01 - wordfile had 2868878 lines and required 22951024 bytes for index.
+3 0:00:00:01 - duplicate rule removed at line 936: :
+3 0:00:00:01 - duplicate rule removed at line 936: -s x**
+3 0:00:00:01 - duplicate rule removed at line 938: :
+3 0:00:00:01 - duplicate rule removed at line 939: :
+3 0:00:00:01 - duplicate rule removed at line 940: :
+3 0:00:00:01 - 22296 preprocessed word mangling rules were reduced by dropping 5 rules
+3 0:00:00:01 - 22291 preprocessed word mangling rules
+1 0:00:00:00 Device 0: GRID K520
+1 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --fork=5 --devices=0,1,2,3,4 --format=sha512crypt-opencl --pot=practical4.potfile --wordlist=../dictionaries/rockyou.txt --rules=Jumbo --session=SHA512-ru-jumbo hashes/SHA512.hashes 
+1 0:00:00:00 - UTF-8 input encoding enabled
+1 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 - OpenCL LWS: 256, GWS: 49152 (both auto-tuned) (192 blocks)
+1 0:00:00:00 - Hash type: sha512crypt-opencl, crypt(3) $6$ (min-len 0, max-len 7 [worst case UTF-8] to 23 [ASCII])
+1 0:00:00:00 - Algorithm: SHA512 OpenCL
+1 0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 49152
+4 0:00:00:00 Device 3: GRID K520
+4 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --fork=5 --devices=0,1,2,3,4 --format=sha512crypt-opencl --pot=practical4.potfile --wordlist=../dictionaries/rockyou.txt --rules=Jumbo --session=SHA512-ru-jumbo hashes/SHA512.hashes 
+4 0:00:00:00 - UTF-8 input encoding enabled
+4 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+4 0:00:00:00 Sorting salts, for performance
+4 0:00:00:00 - OpenCL LWS: 256, GWS: 49152 (both auto-tuned) (192 blocks)
+4 0:00:00:00 - Will reject candidates longer than 23 bytes
+4 0:00:00:00 Proceeding with wordlist mode
+4 0:00:00:00 - Rules: Jumbo
+4 0:00:00:00 - Wordlist file: ../dictionaries/rockyou.txt
+4 0:00:00:00 - memory mapping wordlist (139921497 bytes)
+4 0:00:00:01 - loaded this node's share of wordfile ../dictionaries/rockyou.txt into memory (27981675 bytes of 139921497, max_size=2147483648 avg/node)
+4 0:00:00:01 - wordfile had 2868878 lines and required 22951024 bytes for index.
+4 0:00:00:01 - duplicate rule removed at line 936: :
+4 0:00:00:01 - duplicate rule removed at line 936: -s x**
+4 0:00:00:01 - duplicate rule removed at line 938: :
+4 0:00:00:01 - duplicate rule removed at line 939: :
+4 0:00:00:01 - duplicate rule removed at line 940: :
+4 0:00:00:01 - 22296 preprocessed word mangling rules were reduced by dropping 5 rules
+4 0:00:00:01 - 22291 preprocessed word mangling rules
+1 0:00:00:00 - Will reject candidates longer than 23 bytes
+1 0:00:00:00 Proceeding with wordlist mode
+1 0:00:00:00 - Rules: Jumbo
+1 0:00:00:00 - Wordlist file: ../dictionaries/rockyou.txt
+1 0:00:00:00 - memory mapping wordlist (139921497 bytes)
+1 0:00:00:01 - loaded this node's share of wordfile ../dictionaries/rockyou.txt into memory (27984735 bytes of 139921497, max_size=2147483648 avg/node)
+1 0:00:00:01 - wordfile had 2868879 lines and required 22951032 bytes for index.
+1 0:00:00:01 - duplicate rule removed at line 936: :
+1 0:00:00:01 - duplicate rule removed at line 936: -s x**
+1 0:00:00:01 - duplicate rule removed at line 938: :
+1 0:00:00:01 - duplicate rule removed at line 939: :
+1 0:00:00:01 - duplicate rule removed at line 940: :
+1 0:00:00:01 - 22296 preprocessed word mangling rules were reduced by dropping 5 rules
+1 0:00:00:01 - 22291 preprocessed word mangling rules
+5 0:00:00:00 Device 4: pthread-Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz
+5 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --fork=5 --devices=0,1,2,3,4 --format=sha512crypt-opencl --pot=practical4.potfile --wordlist=../dictionaries/rockyou.txt --rules=Jumbo --session=SHA512-ru-jumbo hashes/SHA512.hashes 
+5 0:00:00:00 - UTF-8 input encoding enabled
+5 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+5 0:00:00:00 Sorting salts, for performance
+5 0:00:00:00 - OpenCL LWS: 8, GWS: 512 (both auto-tuned) (64 blocks)
+5 0:00:00:00 - Will reject candidates longer than 23 bytes
+5 0:00:00:00 Proceeding with wordlist mode
+5 0:00:00:00 - Rules: Jumbo
+5 0:00:00:00 - Wordlist file: ../dictionaries/rockyou.txt
+5 0:00:00:00 - memory mapping wordlist (139921497 bytes)
+5 0:00:00:01 - loaded this node's share of wordfile ../dictionaries/rockyou.txt into memory (27985160 bytes of 139921497, max_size=2147483648 avg/node)
+5 0:00:00:01 - wordfile had 2868878 lines and required 22951024 bytes for index.
+5 0:00:00:01 - duplicate rule removed at line 936: :
+5 0:00:00:01 - duplicate rule removed at line 936: -s x**
+5 0:00:00:01 - duplicate rule removed at line 938: :
+5 0:00:00:01 - duplicate rule removed at line 939: :
+5 0:00:00:01 - duplicate rule removed at line 940: :
+5 0:00:00:01 - 22296 preprocessed word mangling rules were reduced by dropping 5 rules
+5 0:00:00:01 - 22291 preprocessed word mangling rules
+2 0:00:00:01 - Rule #1: ':' accepted as ''
+2 0:00:00:06 GPU 1 probably invalid temp reading (-1°C).
+3 0:00:00:01 - Rule #1: ':' accepted as ''
+3 0:00:00:06 GPU 2 probably invalid temp reading (-1°C).
+1 0:00:00:01 - Rule #1: ':' accepted as ''
+1 0:00:00:05 GPU 0 probably invalid temp reading (-1°C).
+4 0:00:00:01 - Rule #1: ':' accepted as ''
+4 0:00:00:05 GPU 3 probably invalid temp reading (-1°C).
+5 0:00:00:01 - Rule #1: ':' accepted as ''
+5 0:00:04:36 + Cracked ?
+4 0:00:22:57 + pot sync removed 1 hashes; Remaining 313 hashes with 313 different salts
+1 0:00:22:57 + pot sync removed 1 hashes; Remaining 313 hashes with 313 different salts
+2 0:00:26:40 + pot sync removed 1 hashes; Remaining 313 hashes with 313 different salts
+3 0:00:26:28 + pot sync removed 1 hashes; Remaining 313 hashes with 313 different salts
+1 0:00:45:40 + Cracked ?
+5 0:00:46:16 + pot sync removed 1 hashes; Remaining 312 hashes with 312 different salts
+5 0:00:51:21 + Cracked ?
+2 0:00:53:14 + pot sync removed 2 hashes; Remaining 311 hashes with 311 different salts
+3 0:00:53:02 + pot sync removed 2 hashes; Remaining 311 hashes with 311 different salts
+1 0:01:00:34 + Cracked ?
+5 0:01:01:36 + pot sync removed 1 hashes; Remaining 310 hashes with 310 different salts
+1 0:01:08:38 + pot sync removed 1 hashes; Remaining 310 hashes with 310 different salts
+4 0:01:08:41 + pot sync removed 3 hashes; Remaining 310 hashes with 310 different salts
+1 0:01:12:12 + Cracked ?
+5 0:01:13:21 + pot sync removed 1 hashes; Remaining 309 hashes with 309 different salts
+2 0:01:19:38 + pot sync removed 2 hashes; Remaining 309 hashes with 309 different salts
+3 0:01:19:25 + pot sync removed 2 hashes; Remaining 309 hashes with 309 different salts
+4 0:01:31:19 + pot sync removed 1 hashes; Remaining 309 hashes with 309 different salts
+2 0:01:34:08 + Cracked ?
+5 0:01:35:00 + pot sync removed 1 hashes; Remaining 308 hashes with 308 different salts
+3 0:01:45:38 + pot sync removed 1 hashes; Remaining 308 hashes with 308 different salts
+1 0:01:45:56 + Cracked ?
+5 0:01:46:06 + pot sync removed 1 hashes; Remaining 307 hashes with 307 different salts
+4 0:01:49:12 + Cracked ?
+4 0:01:49:29 + Cracked ?
+5 0:01:50:10 + pot sync removed 2 hashes; Remaining 305 hashes with 305 different salts
+4 0:01:53:54 + pot sync removed 2 hashes; Remaining 305 hashes with 305 different salts
+1 0:01:53:51 + pot sync removed 3 hashes; Remaining 305 hashes with 305 different salts
+3 0:01:59:27 + Cracked ?
+5 0:02:00:33 + pot sync removed 1 hashes; Remaining 304 hashes with 304 different salts
+1 0:02:10:03 + Cracked ?
+2 0:02:11:58 + pot sync removed 5 hashes; Remaining 303 hashes with 303 different salts
+3 0:02:11:45 + pot sync removed 4 hashes; Remaining 303 hashes with 303 different salts
+5 0:02:11:30 + pot sync removed 1 hashes; Remaining 303 hashes with 303 different salts
+2 0:02:12:39 + Cracked ?
+4 0:02:13:42 + Cracked ?
+5 0:02:13:13 + pot sync removed 1 hashes; Remaining 302 hashes with 302 different salts
+5 0:02:14:22 + pot sync removed 1 hashes; Remaining 301 hashes with 301 different salts
+1 0:02:16:09 + pot sync removed 3 hashes; Remaining 301 hashes with 301 different salts
+4 0:02:16:12 + pot sync removed 3 hashes; Remaining 301 hashes with 301 different salts
+1 0:02:18:55 + Cracked ?
+5 0:02:19:29 + pot sync removed 1 hashes; Remaining 300 hashes with 300 different salts
+2 0:02:37:40 + pot sync removed 2 hashes; Remaining 300 hashes with 300 different salts
+3 0:02:37:28 + pot sync removed 3 hashes; Remaining 300 hashes with 300 different salts
+4 0:02:38:12 + pot sync removed 1 hashes; Remaining 300 hashes with 300 different salts
+1 0:02:55:19 + Cracked ?
+5 0:02:56:26 + pot sync removed 1 hashes; Remaining 299 hashes with 299 different salts
+4 0:03:00:08 + pot sync removed 1 hashes; Remaining 299 hashes with 299 different salts
+3 0:03:02:55 + pot sync removed 1 hashes; Remaining 299 hashes with 299 different salts
+2 0:03:03:07 + pot sync removed 1 hashes; Remaining 299 hashes with 299 different salts
+4 0:03:11:36 + Cracked ?
+5 0:03:12:19 + pot sync removed 1 hashes; Remaining 298 hashes with 298 different salts
+1 0:03:18:35 + Cracked ?
+5 0:03:19:07 + pot sync removed 1 hashes; Remaining 297 hashes with 297 different salts
+2 0:03:20:39 + Cracked ?
+1 0:03:21:54 + pot sync removed 2 hashes; Remaining 296 hashes with 296 different salts
+5 0:03:21:22 + pot sync removed 1 hashes; Remaining 296 hashes with 296 different salts
+4 0:03:22:00 + pot sync removed 2 hashes; Remaining 296 hashes with 296 different salts
+2 0:03:28:28 + pot sync removed 2 hashes; Remaining 296 hashes with 296 different salts
+3 0:03:28:17 + pot sync removed 3 hashes; Remaining 296 hashes with 296 different salts
+4 0:03:31:03 + Cracked ?
+5 0:03:32:02 + pot sync removed 1 hashes; Remaining 295 hashes with 295 different salts
+1 0:03:34:31 + Cracked ?
+5 0:03:35:24 + pot sync removed 1 hashes; Remaining 294 hashes with 294 different salts
+4 0:03:43:37 + pot sync removed 1 hashes; Remaining 294 hashes with 294 different salts
+1 0:03:43:29 + pot sync removed 1 hashes; Remaining 294 hashes with 294 different salts
+2 0:03:53:34 + pot sync removed 2 hashes; Remaining 294 hashes with 294 different salts
+3 0:03:53:23 + pot sync removed 2 hashes; Remaining 294 hashes with 294 different salts
+5 0:04:21:52 + Cracked ?
+1 0:04:26:48 + pot sync removed 1 hashes; Remaining 293 hashes with 293 different salts
+4 0:04:26:39 + Cracked ?
+4 0:04:26:57 + pot sync removed 1 hashes; Remaining 292 hashes with 292 different salts
+5 0:04:27:27 + pot sync removed 1 hashes; Remaining 292 hashes with 292 different salts
+1 0:04:28:07 + Cracked ?
+5 0:04:29:06 + pot sync removed 1 hashes; Remaining 291 hashes with 291 different salts
+3 0:04:42:34 + Cracked ?
+2 0:04:43:36 + pot sync removed 4 hashes; Remaining 290 hashes with 290 different salts
+3 0:04:43:26 + pot sync removed 3 hashes; Remaining 290 hashes with 290 different salts
+5 0:04:43:31 + pot sync removed 1 hashes; Remaining 290 hashes with 290 different salts
+1 0:04:48:20 + pot sync removed 2 hashes; Remaining 290 hashes with 290 different salts
+4 0:04:48:25 + pot sync removed 2 hashes; Remaining 290 hashes with 290 different salts
+3 0:04:49:37 + Cracked ?
+5 0:04:50:10 + pot sync removed 1 hashes; Remaining 289 hashes with 289 different salts
+3 0:05:02:53 + Cracked ?
+5 0:05:03:23 + pot sync removed 1 hashes; Remaining 288 hashes with 288 different salts
+2 0:05:04:56 + Cracked ?
+5 0:05:05:00 + pot sync removed 1 hashes; Remaining 287 hashes with 287 different salts
+2 0:05:08:17 + pot sync removed 2 hashes; Remaining 287 hashes with 287 different salts
+3 0:05:08:06 + pot sync removed 1 hashes; Remaining 287 hashes with 287 different salts
+4 0:05:09:47 + pot sync removed 3 hashes; Remaining 287 hashes with 287 different salts
+1 0:05:09:43 + pot sync removed 3 hashes; Remaining 287 hashes with 287 different salts
+5 0:05:20:48 + Cracked ?
+3 0:05:25:35 + Cracked ?
+5 0:05:26:18 + pot sync removed 1 hashes; Remaining 285 hashes with 285 different salts
+4 0:05:30:55 + pot sync removed 2 hashes; Remaining 285 hashes with 285 different salts
+1 0:05:30:50 + pot sync removed 2 hashes; Remaining 285 hashes with 285 different salts
+2 0:05:32:41 + pot sync removed 2 hashes; Remaining 285 hashes with 285 different salts
+3 0:05:32:31 + pot sync removed 1 hashes; Remaining 285 hashes with 285 different salts
+5 0:05:40:15 + Cracked ?
+4 0:05:51:52 + pot sync removed 1 hashes; Remaining 284 hashes with 284 different salts
+1 0:05:51:47 + pot sync removed 1 hashes; Remaining 284 hashes with 284 different salts
+2 0:05:54:28 + Cracked ?
+5 0:05:55:00 + pot sync removed 1 hashes; Remaining 283 hashes with 283 different salts
+2 0:05:56:58 + pot sync removed 1 hashes; Remaining 283 hashes with 283 different salts
+3 0:05:56:49 + pot sync removed 2 hashes; Remaining 283 hashes with 283 different salts
+2 0:06:04:36 + Cracked ?
+5 0:06:05:14 + pot sync removed 1 hashes; Remaining 282 hashes with 282 different salts
+1 0:06:12:40 + pot sync removed 2 hashes; Remaining 282 hashes with 282 different salts
+4 0:06:12:44 + pot sync removed 2 hashes; Remaining 282 hashes with 282 different salts
+3 0:06:20:55 + pot sync removed 1 hashes; Remaining 282 hashes with 282 different salts
+2 0:06:27:00 + Cracked ?
+5 0:06:28:20 + pot sync removed 1 hashes; Remaining 281 hashes with 281 different salts
+4 0:06:33:29 + pot sync removed 1 hashes; Remaining 281 hashes with 281 different salts
+1 0:06:33:24 + pot sync removed 1 hashes; Remaining 281 hashes with 281 different salts
+3 0:06:44:56 + pot sync removed 1 hashes; Remaining 281 hashes with 281 different salts
+5 0:06:46:16 Session aborted
+3 0:06:46:22 Session aborted
+2 0:06:46:25 Session aborted
+4 0:06:46:24 Session aborted

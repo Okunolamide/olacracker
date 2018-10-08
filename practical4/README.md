@@ -76,3 +76,8 @@ Sort out DES:
 - Dump mismatches (including line numbers into tmp)
 - ```awk '{print substr($0,4)}' tmp >> mismatched_des.hashes```
 - Format as normal
+
+# I AM AN IDIOT
+- I just spent ~6 hours cracking ~20 SHA512 passwords.... THAT I already cracked before
+	- I forgot to specify (to john) the potfile I wanted to use so it looked like I was getting loads of them but I wasnt
+

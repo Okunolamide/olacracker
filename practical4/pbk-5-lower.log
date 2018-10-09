@@ -1,0 +1,36 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 333 password hashes with 333 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 332 password hashes with 332 different salts
+0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --pot=practical4.potfile --session=pbk-5-lower --format=PBKDF2-HMAC-SHA256 --wordlist=../dictionaries/rockyou_5chars.txt hashes/pbkdf2.hashes 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256 (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 128/128 SSE4.1 4x
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 128
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: ../dictionaries/rockyou_5chars.txt
+0:00:00:00 - memory mapping wordlist (1555014 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 333 password hashes with 333 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 332 password hashes with 332 different salts
+0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --pot=practical4.potfile --session=pbk-5-lower --format=PBKDF2-HMAC-SHA256 --wordlist=../dictionaries/rockyou_5_lower.txt hashes/pbkdf2.hashes 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256 (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 128/128 SSE4.1 4x
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 128
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: ../dictionaries/rockyou_5_lower.txt
+0:00:00:00 - memory mapping wordlist (754386 bytes)
+0:00:00:00 - No word mangling rules
+0:01:03:16 + Cracked ?
+0:02:05:25 Session aborted

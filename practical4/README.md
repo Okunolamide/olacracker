@@ -77,7 +77,7 @@ Sort out DES:
 - ```awk '{print substr($0,4)}' tmp >> mismatched_des.hashes```
 - Format as normal
 
-# I AM AN IDIOT
-- I just spent ~6 hours cracking ~20 SHA512 passwords.... THAT I already cracked before
-	- I forgot to specify (to john) the potfile I wanted to use so it looked like I was getting loads of them but I wasnt
-
+Trying to crack harder ones (pbkdf2, SHA512)
+- On AWS, john checks about 4.5k hashes per second (per GPU) for SHA512
+- On AWS, john checks about 2.5k hashes per second (per GPU) for pbkdf2 :(
+- On my GPU, john checks about 17.5k hashes per second for SHA256

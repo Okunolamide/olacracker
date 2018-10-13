@@ -1,0 +1,122 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 337 password hashes with 337 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 105 password hashes with 105 different salts
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --pot=practical4.potfile --prince=../dictionaries/rockyou_2_5_lowers.txt --session=md5_prince_2_5_lowers_mask_4 --mask=?4 hashes/MD5Crypt.hashes 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - Hash type: md5crypt, crypt(3) $1$ (min-len 0, max-len 5 [worst case UTF-8] to 15 [ASCII])
+0:00:00:00 - Algorithm: MD5 128/128 SSE4.1 4x3
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 - Will reject candidates longer than 15 bytes
+0:00:00:00 Terminating on error, mask.c:2295
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 337 password hashes with 337 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 105 password hashes with 105 different salts
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --pot=practical4.potfile --prince=../dictionaries/rockyou_2_5_lowers.txt --session=md5_prince_2_5_lowers_mask_4 --mask=4 hashes/MD5Crypt.hashes 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - Hash type: md5crypt, crypt(3) $1$ (min-len 0, max-len 5 [worst case UTF-8] to 15 [ASCII])
+0:00:00:00 - Algorithm: MD5 128/128 SSE4.1 4x3
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 - Will reject candidates longer than 15 bytes
+0:00:00:00 Terminating on error, mask.c:2295
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 337 password hashes with 337 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 105 password hashes with 105 different salts
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --pot=practical4.potfile --prince=../dictionaries/rockyou_2_5_lowers.txt --session=md5_prince_2_5_lowers_mask_4 --mask=?w?d?d hashes/MD5Crypt.hashes 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - Hash type: md5crypt, crypt(3) $1$ (min-len 0, max-len 5 [worst case UTF-8] to 15 [ASCII])
+0:00:00:00 - Algorithm: MD5 128/128 SSE4.1 4x3
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 384
+0:00:00:00 - Will reject candidates longer than 15 bytes
+0:00:00:00 - Requested internal mask factor: 0, actual now 1
+0:00:00:00 Proceeding with PRINCE (int128 version)
+0:00:00:00 - Wordlist file: ../dictionaries/rockyou_2_5_lowers.txt
+0:00:00:00 - Will generate candidates of length 1 - 13
+0:00:00:00 - Using chains with 1 - 8 elements.
+0:00:00:00 - No word mangling rules
+0:00:00:00 - Input file: ../dictionaries/rockyou_2_5_lowers.txt
+0:00:00:00 Loading elements from wordlist
+0:00:00:00 Initializing chains
+0:00:00:00 - Using default output length distribution
+0:00:00:00 Calculating keyspace
+0:00:00:00 - Keyspace size 15808410092 (33 bits used)
+0:00:00:00 - Memory use for PRINCE: 2732047 bytes
+0:00:00:00 Sorting chains by keyspace
+0:00:00:00 Sorting global order by password length counts
+0:00:00:00 Starting candidate generation
+0:00:00:17 PRINCE done. Cleaning up.
+0:00:00:17 Session aborted
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 337 password hashes with 337 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 105 password hashes with 105 different salts
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --pot=practical4.potfile --prince=../dictionaries/rockyou_2_5_lowers.txt --session=md5_prince_2_5_lowers_mask_4 --mask=?w?d?d hashes/MD5Crypt.hashes --format=md5crypt-opencl 
+0:00:00:00 - GPU 0: temp: 31°C fan: 16%
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Device 0: GeForce GTX 560 Ti
+0:00:00:00 - OpenCL LWS: 256, GWS: 98304 (both auto-tuned) (384 blocks)
+0:00:00:00 - Hash type: md5crypt-opencl, crypt(3) $1$ (min-len 0, max-len 5 [worst case UTF-8] to 15 [ASCII])
+0:00:00:00 - Algorithm: MD5 OpenCL
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 98304
+0:00:00:00 - Will reject candidates longer than 15 bytes
+0:00:00:00 - Requested internal mask factor: 0, actual now 1
+0:00:00:00 Proceeding with PRINCE (int128 version)
+0:00:00:00 - Wordlist file: ../dictionaries/rockyou_2_5_lowers.txt
+0:00:00:00 - Will generate candidates of length 1 - 13
+0:00:00:00 - Using chains with 1 - 8 elements.
+0:00:00:00 - No word mangling rules
+0:00:00:00 - Input file: ../dictionaries/rockyou_2_5_lowers.txt
+0:00:00:00 Loading elements from wordlist
+0:00:00:00 Initializing chains
+0:00:00:00 - Using default output length distribution
+0:00:00:00 Calculating keyspace
+0:00:00:00 - Keyspace size 15808410092 (33 bits used)
+0:00:00:00 - Memory use for PRINCE: 2732047 bytes
+0:00:00:00 Sorting chains by keyspace
+0:00:00:00 Sorting global order by password length counts
+0:00:00:00 Starting candidate generation
+0:00:04:05 PRINCE done. Cleaning up.
+0:00:04:05 Session aborted
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 337 password hashes with 337 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 105 password hashes with 105 different salts
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --pot=practical4.potfile --prince=../dictionaries/rockyou_5_or_less_lowers_concat.txt --session=md5_prince_2_5_lowers_mask_4 --mask=?w?d?d hashes/MD5Crypt.hashes --format=md5crypt-opencl 
+0:00:00:00 - GPU 0: temp: 48°C fan: 34%
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Device 0: GeForce GTX 560 Ti
+0:00:00:00 - OpenCL LWS: 256, GWS: 98304 (both auto-tuned) (384 blocks)
+0:00:00:00 - Hash type: md5crypt-opencl, crypt(3) $1$ (min-len 0, max-len 5 [worst case UTF-8] to 15 [ASCII])
+0:00:00:00 - Algorithm: MD5 OpenCL
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 98304
+0:00:00:00 - Will reject candidates longer than 15 bytes
+0:00:00:00 - Requested internal mask factor: 0, actual now 1
+0:00:00:00 Proceeding with PRINCE (int128 version)
+0:00:00:00 - Wordlist file: ../dictionaries/rockyou_5_or_less_lowers_concat.txt
+0:00:00:00 - Will generate candidates of length 1 - 13
+0:00:00:00 - Using chains with 1 - 8 elements.
+0:00:00:00 - No word mangling rules
+0:00:00:00 - Input file: ../dictionaries/rockyou_5_or_less_lowers_concat.txt
+0:00:00:00 Loading elements from wordlist
+0:00:00:06 Initializing chains
+0:00:00:06 - Using default output length distribution
+0:00:00:06 Calculating keyspace
+0:00:00:06 - Keyspace size 38311335259354649884 (65 bits used)
+0:00:00:06 - Memory use for PRINCE: 1007979149 bytes
+0:00:00:06 Sorting chains by keyspace
+0:00:00:06 Sorting global order by password length counts
+0:00:00:06 Starting candidate generation
+0:00:07:14 PRINCE done. Cleaning up.
+0:00:07:14 Session aborted

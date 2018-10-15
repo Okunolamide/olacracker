@@ -81,3 +81,56 @@ Trying to crack harder ones (pbkdf2, SHA512)
 - On AWS, john checks about 4.5k hashes per second (per GPU) for SHA512
 - On AWS, john checks about 2.5k hashes per second (per GPU) for pbkdf2 :(
 - On my GPU, john checks about 17.5k hashes per second for SHA256
+Password length frequencies: 5, 6, 8
+Compound words: dogcat seem likely
+
+
+## Brute Forcing attempts
+### 5 Lowercase
+- DES: Done
+- MD5: Done - got a good few
+- SHA256: Done - took like 2 days but got a good few
+
+
+This would be infeasible for theese algorithms
+They all look sort of pronouncable..
+Taking all words from rockyou over 5 chars and generating 5 char substrings from those
+This should mean i dont repeat work I already done 
+I also reflected, rotated and flipped the words
+- SHA512: running on my GPU right now..
+- pbkdf2: Just too slow, only checking 2k hashes per sec..
+- argon
+
+### Digits (1-10 length)
+- DES: 
+- MD5:
+- SHA256:
+- SHA512:
+- pbkdf2:
+- argon
+
+### Masks
+Trying n characters followed by m digits (eg jake1234)
+`-9=?l?u -min-len=5 -max-len=8 --mask=?9?l?l?l?d?d?d` will try `jake1, ..., Jake1, ... jake9999, Jake9999`
+- DES: 
+- MD5: 
+- SHA256:
+- SHA512:
+- pbkdf2:
+- Argon:
+
+### Compound words
+Took all the 5 chars or less lowercase words from rockyou and concatenated them with each other word
+Eg: Rockyou <= 5 lowers might look like "dog","cat"... used a wordlist like "dogcat", "catdog" ...
+Had a total of 63921107 words.
+
+Turns out this is basically what prince mode does.
+Given a wordlist, concatenates them etc
+I think a small subset of rockyou (eg less 5 chars lower) + some numeric numbers at end through mask might be good 
+- DES: Done - got like 8 and only took a few mins 
+- MD5: Ran some of this but didnt get any.. theres doesnt seem to be many of these in what ive cracked so far
+- SHA256: 
+- SHA512:
+- pbkdf2:
+- argon
+

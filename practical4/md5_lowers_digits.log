@@ -1,0 +1,20 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 337 password hashes with 337 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 105 password hashes with 105 different salts
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --pot=practical4.potfile --9=?l?u --mask=?9?l?l?l?d?d?d?d --min-length=5 --max-length=8 --format=md5crypt-opencl --session=md5_lowers_digits hashes/MD5Crypt.hashes 
+0:00:00:00 - GPU 0: temp: 32°C fan: 16%
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Device 0: GeForce GTX 560 Ti
+0:00:00:00 - OpenCL LWS: 256, GWS: 98304 (both auto-tuned) (384 blocks)
+0:00:00:00 - Hash type: md5crypt-opencl, crypt(3) $1$ (min-len 0, max-len 5 [worst case UTF-8] to 15 [ASCII])
+0:00:00:00 - Algorithm: MD5 OpenCL
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 98304
+0:00:00:00 - Will reject candidates longer than 8 bytes
+0:00:00:00 Proceeding with mask mode
+0:00:00:00 - Requested internal mask factor: 0, actual now 1
+0:00:00:00 - Requested internal mask factor: 0, actual now 1
+0:00:21:30 - Requested internal mask factor: 0, actual now 1
+0:00:25:32 Session aborted

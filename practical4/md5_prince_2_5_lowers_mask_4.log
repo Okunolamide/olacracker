@@ -120,3 +120,37 @@
 0:00:00:06 Starting candidate generation
 0:00:07:14 PRINCE done. Cleaning up.
 0:00:07:14 Session aborted
+0:00:07:15 Continuing an interrupted session
+0:00:07:15 Loaded a total of 337 password hashes with 337 different salts
+0:00:07:15 Sorting salts, for performance
+0:00:07:15 Remaining 105 password hashes with 105 different salts
+0:00:07:15 Command line: /home/stefano/software/john-the-ripper/run/john --restore=md5_prince_2_5_lowers_mask_4 
+0:00:07:15 - GPU 0: temp: 40°C fan: 24%
+0:00:07:15 - UTF-8 input encoding enabled
+0:00:07:15 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:07:15 Sorting salts, for performance
+0:00:07:15 Device 0: GeForce GTX 560 Ti
+0:00:07:15 - OpenCL LWS: 256, GWS: 98304 (both auto-tuned) (384 blocks)
+0:00:07:15 - Hash type: md5crypt-opencl, crypt(3) $1$ (min-len 0, max-len 5 [worst case UTF-8] to 15 [ASCII])
+0:00:07:15 - Algorithm: MD5 OpenCL
+0:00:07:15 - Candidate passwords will be buffered and tried in chunks of 98304
+0:00:07:15 - Will reject candidates longer than 15 bytes
+0:00:07:15 - Requested internal mask factor: 0, actual now 1
+0:00:07:15 Proceeding with PRINCE (int128 version)
+0:00:07:15 - Wordlist file: ../dictionaries/rockyou_5_or_less_lowers_concat.txt
+0:00:07:15 - Will generate candidates of length 1 - 13
+0:00:07:15 - Using chains with 1 - 8 elements.
+0:00:07:15 - No word mangling rules
+0:00:07:15 - Input file: ../dictionaries/rockyou_5_or_less_lowers_concat.txt
+0:00:07:15 Loading elements from wordlist
+0:00:07:21 Initializing chains
+0:00:07:21 - Using default output length distribution
+0:00:07:21 Calculating keyspace
+0:00:07:21 - Keyspace size 38311335259354649884 (65 bits used)
+0:00:07:21 - Memory use for PRINCE: 1007979149 bytes
+0:00:07:21 Sorting chains by keyspace
+0:00:07:21 Sorting global order by password length counts
+0:00:07:21 - Skip 24697
+0:00:07:21 Starting candidate generation
+0:00:18:29 PRINCE done. Cleaning up.
+0:00:18:29 Session aborted

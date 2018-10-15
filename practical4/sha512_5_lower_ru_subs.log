@@ -1,0 +1,160 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 331 password hashes with 331 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 281 password hashes with 281 different salts
+0:00:00:00 Cost 1 (iteration count) is 5000 for all loaded hashes
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --pot=practical4.potfile --session=sha512_5_lower_ru_subs --format=sha512crypt-opencl --wordlist=tmp_5_lowers.txt --rules=word_transformations hashes/SHA512.hashes 
+0:00:00:00 - GPU 0: temp: 48°C fan: 31%
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - OpenCL LWS: 64, GWS: 98304 (both auto-tuned) (1536 blocks)
+0:00:00:00 - Hash type: sha512crypt-opencl, crypt(3) $6$ (min-len 0, max-len 7 [worst case UTF-8] to 23 [ASCII])
+0:00:00:00 - Algorithm: SHA512 OpenCL
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 98304
+0:00:00:00 - Will reject candidates longer than 23 bytes
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Rules: word_transformations
+0:00:00:00 Terminating on error, wordlist.c:686
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 331 password hashes with 331 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 281 password hashes with 281 different salts
+0:00:00:00 Cost 1 (iteration count) is 5000 for all loaded hashes
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --pot=practical4.potfile --session=sha512_5_lower_ru_subs --format=sha512crypt-opencl --wordlist=../dictionaries/tmp_5_lowers.txt --rules=word_transformations hashes/SHA512.hashes 
+0:00:00:00 - GPU 0: temp: 50°C fan: 34%
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - OpenCL LWS: 64, GWS: 98304 (both auto-tuned) (1536 blocks)
+0:00:00:00 - Hash type: sha512crypt-opencl, crypt(3) $6$ (min-len 0, max-len 7 [worst case UTF-8] to 23 [ASCII])
+0:00:00:00 - Algorithm: SHA512 OpenCL
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 98304
+0:00:00:00 - Will reject candidates longer than 23 bytes
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Rules: word_transformations
+0:00:00:00 Terminating on error, wordlist.c:686
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 331 password hashes with 331 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 281 password hashes with 281 different salts
+0:00:00:00 Cost 1 (iteration count) is 5000 for all loaded hashes
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --pot=practical4.potfile --session=sha512_5_lower_ru_subs --format=sha512crypt-opencl --wordlist=../dictionaries/ru_substrings_5_lowers.txt --rules=word_transformations hashes/SHA512.hashes 
+0:00:00:00 - GPU 0: temp: 51°C fan: 35%
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - OpenCL LWS: 64, GWS: 98304 (both auto-tuned) (1536 blocks)
+0:00:00:00 - Hash type: sha512crypt-opencl, crypt(3) $6$ (min-len 0, max-len 7 [worst case UTF-8] to 23 [ASCII])
+0:00:00:00 - Algorithm: SHA512 OpenCL
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 98304
+0:00:00:00 - Will reject candidates longer than 23 bytes
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Rules: word_transformations
+0:00:00:00 - Wordlist file: ../dictionaries/ru_substrings_5_lowers.txt
+0:00:00:00 - memory mapping wordlist (60876150 bytes)
+0:00:00:00 - loading wordfile ../dictionaries/ru_substrings_5_lowers.txt into memory (60876150 bytes, max_size=2147483648)
+0:00:00:00 - wordfile had 10146025 lines and required 81168200 bytes for index.
+0:00:00:00 - suppressed 4874246 duplicate lines and/or comments from wordlist.
+0:00:00:00 - 5 preprocessed word mangling rules
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:00:08 Session aborted
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 331 password hashes with 331 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 281 password hashes with 281 different salts
+0:00:00:00 Cost 1 (iteration count) is 5000 for all loaded hashes
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --pot=practical4.potfile --session=sha512_5_lower_ru_subs --format=sha512crypt-opencl --wordlist=../dictionaries/ru_substrings_5_lowers.txt --rules=word_transformations hashes/SHA512.hashes 
+0:00:00:00 - GPU 0: temp: 50°C fan: 38%
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - OpenCL LWS: 64, GWS: 98304 (both auto-tuned) (1536 blocks)
+0:00:00:00 - Hash type: sha512crypt-opencl, crypt(3) $6$ (min-len 0, max-len 7 [worst case UTF-8] to 23 [ASCII])
+0:00:00:00 - Algorithm: SHA512 OpenCL
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 98304
+0:00:00:00 - Will reject candidates longer than 23 bytes
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Rules: word_transformations
+0:00:00:00 - Wordlist file: ../dictionaries/ru_substrings_5_lowers.txt
+0:00:00:00 - memory mapping wordlist (60876150 bytes)
+0:00:00:00 - loading wordfile ../dictionaries/ru_substrings_5_lowers.txt into memory (60876150 bytes, max_size=2147483648)
+0:00:00:00 - wordfile had 10146025 lines and required 81168200 bytes for index.
+0:00:00:00 - suppressed 4874246 duplicate lines and/or comments from wordlist.
+0:00:00:00 - 5 preprocessed word mangling rules
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:04:57 + Cracked ?
+0:00:37:14 + Cracked ?
+0:00:37:48 + Cracked ?
+0:00:46:34 + Cracked ?
+0:00:47:16 + Cracked ?
+0:01:14:36 + Cracked ?
+0:01:17:00 + Cracked ?
+0:01:46:18 + Cracked ?
+0:01:48:08 + Cracked ?
+0:01:55:56 + Cracked ?
+0:02:02:44 + Cracked ?
+0:02:18:43 + Cracked ?
+0:02:29:38 + Cracked ?
+0:03:03:45 + Cracked ?
+0:03:10:42 + Cracked ?
+0:03:27:49 + Cracked ?
+0:03:38:01 + Cracked ?
+0:04:34:56 + Cracked ?
+0:05:05:57 + Cracked ?
+0:05:26:53 + Cracked ?
+0:05:56:12 + Cracked ?
+0:06:06:49 + Cracked ?
+0:06:09:22 + Cracked ?
+0:06:26:55 + Cracked ?
+0:07:41:49 + Cracked ?
+0:08:23:09 + Cracked ?
+0:08:42:50 + Cracked ?
+0:09:53:20 + Cracked ?
+0:09:54:03 + Cracked ?
+0:10:08:03 + Cracked ?
+0:10:17:32 + Cracked ?
+0:10:18:49 + Cracked ?
+0:10:22:55 + Cracked ?
+0:11:00:09 + Cracked ?
+0:11:49:25 + Cracked ?
+0:13:09:07 + Cracked ?
+0:13:23:51 + Cracked ?
+0:14:54:18 + Cracked ?
+0:14:55:52 + Cracked ?
+0:15:11:52 + Cracked ?
+0:16:20:07 + Cracked ?
+0:17:00:18 + Cracked ?
+0:19:37:44 + Cracked ?
+0:20:05:20 + Cracked ?
+0:20:21:37 + Cracked ?
+0:21:08:36 + Cracked ?
+0:21:39:11 + Cracked ?
+0:22:42:11 + Cracked ?
+0:22:42:36 + Cracked ?
+0:23:09:39 + Cracked ?
+1:00:23:58 + Cracked ?
+1:01:15:30 + Cracked ?
+1:02:16:48 + Cracked ?
+1:02:36:37 + Cracked ?
+1:02:42:34 + Cracked ?
+1:03:36:21 + Cracked ?
+1:03:44:43 + Cracked ?
+1:03:59:01 + Cracked ?
+1:04:15:26 + Cracked ?
+1:06:33:21 - Rule #2: 'r' accepted
+1:06:47:30 + Cracked ?
+1:07:08:10 + Cracked ?
+1:08:28:35 + Cracked ?
+1:08:41:20 + Cracked ?
+1:09:17:18 + Cracked ?
+1:10:49:28 + Cracked ?
+1:12:30:41 + Cracked ?
+1:13:00:34 + Cracked ?
+1:15:54:25 + Cracked ?
+1:20:10:56 + Cracked ?
+1:22:32:13 + Cracked ?
+1:22:45:24 + Cracked ?
+1:23:58:09 + Cracked ?
+2:00:21:48 + Cracked ?
+2:02:17:37 Session aborted

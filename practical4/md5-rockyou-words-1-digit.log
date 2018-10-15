@@ -1,0 +1,42 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 337 password hashes with 337 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 105 password hashes with 105 different salts
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --format=md5crypt-opencl --pot=practical4.potfile --wordlist=../dictionaries/rockyou_all_alphabet.txt --mask=?w?d hashes/MD5Crypt.hashes --min-length=2 --session=md5-rockyou-words-1-digit 
+0:00:00:00 - GPU 0: temp: 49°C fan: 33%
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Device 0: GeForce GTX 560 Ti
+0:00:00:00 - OpenCL LWS: 256, GWS: 98304 (both auto-tuned) (384 blocks)
+0:00:00:00 - Hash type: md5crypt-opencl, crypt(3) $1$ (min-len 0, max-len 5 [worst case UTF-8] to 15 [ASCII])
+0:00:00:00 - Algorithm: MD5 OpenCL
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 98304
+0:00:00:00 - Will reject candidates longer than 15 bytes
+0:00:00:00 - Requested internal mask factor: 0, actual now 1
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: ../dictionaries/rockyou_all_alphabet.txt
+0:00:00:00 - memory mapping wordlist (39983605 bytes)
+0:00:00:00 - No word mangling rules
+0:00:06:00 Session aborted
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 337 password hashes with 337 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 105 password hashes with 105 different salts
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --format=md5crypt-opencl --pot=practical4.potfile --wordlist=../dictionaries/rockyou.txt --mask=?W hashes/MD5Crypt.hashes --session=md5-rockyou-words-1-digit 
+0:00:00:00 - GPU 0: temp: 44°C fan: 28%
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Device 0: GeForce GTX 560 Ti
+0:00:00:00 - OpenCL LWS: 256, GWS: 98304 (both auto-tuned) (384 blocks)
+0:00:00:00 - Hash type: md5crypt-opencl, crypt(3) $1$ (min-len 0, max-len 5 [worst case UTF-8] to 15 [ASCII])
+0:00:00:00 - Algorithm: MD5 OpenCL
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 98304
+0:00:00:00 - Will reject candidates longer than 15 bytes
+0:00:00:00 - Requested internal mask factor: 0, actual now 1
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: ../dictionaries/rockyou.txt
+0:00:00:00 - memory mapping wordlist (139921497 bytes)
+0:00:00:00 - No word mangling rules
+0:00:09:19 Session aborted

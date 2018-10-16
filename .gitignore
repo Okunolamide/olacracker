@@ -1,2 +1,4 @@
-dictionaries/*.txt
-practical4/john-sessions
+dictionaries/*
+
+!dictionaries/pwgen_5_chars.txt
+

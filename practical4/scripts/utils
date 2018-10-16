@@ -1,6 +1,8 @@
 #! /bin/bash
 
 command=$1
+pwgen_increment=100000
+pwgen_file="../dictionaries/pwgen_5_chars.txt"
 
 infile="lupos.hashes"
 outdir="hashes"
@@ -23,7 +25,6 @@ argon_reg='^\$argon2i\$'
 
 
 total_hashes=$(wc -l < $infile)
-echo "Total number of hashes in $infile: " $total_hashes
 
 function awkIt() {
   awk -v reg=$1 '$0~reg' $2
@@ -114,6 +115,18 @@ elif [ "$command" == "passwords" ]; then
   awk -F ":" '{ print length($2) "\t\t\t" length($1) "\t\t\t" $2 "\t\t\t" $1 }' $potfile| sort -k1 -k2 -n
 elif [ "$command" == "rockyoucomp" ]; then
 	rockyoucomp
+elif [ "$command" == "pwgen_inc" ]; then 
+  len=$(cat $pwgen_file | wc -l)
+  desired_len=$((len+pwgen_increment))
+  echo "Initial length of" $pwgen_file ": " $init_len
+  while [ $len -lt $desired_len ]; do
+    echo "Creating: " $pwgen_increment " passwords"
+    pwgen -0 -A 5 $pwgen_increment >> $pwgen_file
+    sort -u $pwgen_file > tmp
+    mv tmp $pwgen_file
+    len=$(cat $pwgen_file | wc -l)
+    echo "Current Length: " $len
+  done
 else
   echo "No command given"
 fi

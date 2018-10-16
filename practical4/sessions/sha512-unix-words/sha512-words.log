@@ -1,0 +1,398 @@
+1 0:00:00:00 Starting a new session
+1 0:00:00:00 Loaded a total of 331 password hashes with 331 different salts
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Cost 1 (iteration count) is 5000 for all loaded hashes
+1 0:00:00:00 - Node numbers 1-4 of 4 (fork)
+1 0:00:00:00 Starting a new session
+1 0:00:00:00 Loaded a total of 331 password hashes with 331 different salts
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Remaining 281 password hashes with 281 different salts
+1 0:00:00:00 Cost 1 (iteration count) is 5000 for all loaded hashes
+1 0:00:00:00 - Node numbers 1-4 of 4 (fork)
+4 0:00:00:00 Device 3: GRID K520
+4 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --wordlist=../dictionaries/unix_words_8_combos.txt hashes/SHA512.hashes --format=sha512crypt-opencl --fork=4 --devices=0,1,2,3 --session=sha512-words --pot=practical4.potfile 
+4 0:00:00:00 - UTF-8 input encoding enabled
+4 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+4 0:00:00:00 Sorting salts, for performance
+4 0:00:00:00 - OpenCL LWS: 256, GWS: 49152 (both auto-tuned) (192 blocks)
+4 0:00:00:00 - Will reject candidates longer than 23 bytes
+4 0:00:00:00 Proceeding with wordlist mode
+4 0:00:00:00 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+4 0:00:00:00 - memory mapping wordlist (101176768 bytes)
+4 0:00:00:00 - No word mangling rules
+3 0:00:00:00 Device 2: GRID K520
+3 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --wordlist=../dictionaries/unix_words_8_combos.txt hashes/SHA512.hashes --format=sha512crypt-opencl --fork=4 --devices=0,1,2,3 --session=sha512-words --pot=practical4.potfile 
+3 0:00:00:00 - UTF-8 input encoding enabled
+3 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+3 0:00:00:00 Sorting salts, for performance
+3 0:00:00:00 - OpenCL LWS: 256, GWS: 98304 (both auto-tuned) (384 blocks)
+3 0:00:00:00 - Will reject candidates longer than 23 bytes
+3 0:00:00:00 Proceeding with wordlist mode
+3 0:00:00:00 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+3 0:00:00:00 - memory mapping wordlist (101176768 bytes)
+3 0:00:00:00 - No word mangling rules
+1 0:00:00:00 Device 0: GRID K520
+1 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --wordlist=../dictionaries/unix_words_8_combos.txt hashes/SHA512.hashes --format=sha512crypt-opencl --fork=4 --devices=0,1,2,3 --session=sha512-words --pot=practical4.potfile 
+1 0:00:00:00 - UTF-8 input encoding enabled
+1 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 - OpenCL LWS: 256, GWS: 98304 (both auto-tuned) (384 blocks)
+1 0:00:00:00 - Hash type: sha512crypt-opencl, crypt(3) $6$ (min-len 0, max-len 7 [worst case UTF-8] to 23 [ASCII])
+1 0:00:00:00 - Algorithm: SHA512 OpenCL
+1 0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 98304
+1 0:00:00:00 - Will reject candidates longer than 23 bytes
+1 0:00:00:00 Proceeding with wordlist mode
+1 0:00:00:00 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+1 0:00:00:00 - memory mapping wordlist (101176768 bytes)
+1 0:00:00:00 - No word mangling rules
+1 0:00:00:00 Starting a new session
+1 0:00:00:00 Loaded a total of 331 password hashes with 331 different salts
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Remaining 208 password hashes with 208 different salts
+1 0:00:00:00 Cost 1 (iteration count) is 5000 for all loaded hashes
+1 0:00:00:00 - Node numbers 1-4 of 4 (fork)
+1 0:00:00:00 Device 0: GRID K520
+1 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --wordlist=../dictionaries/unix_words_8_combos.txt hashes/SHA512.hashes --format=sha512crypt-opencl --fork=4 --devices=0,1,2,3 --session=sha512-words --pot=practical4.potfile 
+1 0:00:00:00 - UTF-8 input encoding enabled
+1 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 - OpenCL LWS: 32, GWS: 49152 (both auto-tuned) (1536 blocks)
+1 0:00:00:00 - Hash type: sha512crypt-opencl, crypt(3) $6$ (min-len 0, max-len 7 [worst case UTF-8] to 23 [ASCII])
+1 0:00:00:00 - Algorithm: SHA512 OpenCL
+1 0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 49152
+1 0:00:00:00 - Will reject candidates longer than 23 bytes
+1 0:00:00:00 Proceeding with wordlist mode
+1 0:00:00:00 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+1 0:00:00:00 - memory mapping wordlist (101176768 bytes)
+1 0:00:00:00 - No word mangling rules
+2 0:00:00:00 Device 1: GRID K520
+2 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --wordlist=../dictionaries/unix_words_8_combos.txt hashes/SHA512.hashes --format=sha512crypt-opencl --fork=4 --devices=0,1,2,3 --session=sha512-words --pot=practical4.potfile 
+2 0:00:00:00 - UTF-8 input encoding enabled
+2 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+2 0:00:00:00 Sorting salts, for performance
+2 0:00:00:00 - OpenCL LWS: 32, GWS: 98304 (both auto-tuned) (3072 blocks)
+2 0:00:00:00 - Will reject candidates longer than 23 bytes
+2 0:00:00:00 Proceeding with wordlist mode
+2 0:00:00:00 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+2 0:00:00:00 - memory mapping wordlist (101176768 bytes)
+2 0:00:00:00 - No word mangling rules
+3 0:00:00:00 Device 2: GRID K520
+3 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --wordlist=../dictionaries/unix_words_8_combos.txt hashes/SHA512.hashes --format=sha512crypt-opencl --fork=4 --devices=0,1,2,3 --session=sha512-words --pot=practical4.potfile 
+3 0:00:00:00 - UTF-8 input encoding enabled
+3 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+3 0:00:00:00 Sorting salts, for performance
+3 0:00:00:00 - OpenCL LWS: 32, GWS: 98304 (both auto-tuned) (3072 blocks)
+3 0:00:00:00 - Will reject candidates longer than 23 bytes
+3 0:00:00:00 Proceeding with wordlist mode
+3 0:00:00:00 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+3 0:00:00:00 - memory mapping wordlist (101176768 bytes)
+3 0:00:00:00 - No word mangling rules
+4 0:00:00:00 Device 3: GRID K520
+4 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --wordlist=../dictionaries/unix_words_8_combos.txt hashes/SHA512.hashes --format=sha512crypt-opencl --fork=4 --devices=0,1,2,3 --session=sha512-words --pot=practical4.potfile 
+4 0:00:00:00 - UTF-8 input encoding enabled
+4 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+4 0:00:00:00 Sorting salts, for performance
+4 0:00:00:00 - OpenCL LWS: 256, GWS: 98304 (both auto-tuned) (384 blocks)
+4 0:00:00:00 - Will reject candidates longer than 23 bytes
+4 0:00:00:00 Proceeding with wordlist mode
+4 0:00:00:00 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+4 0:00:00:00 - memory mapping wordlist (101176768 bytes)
+4 0:00:00:00 - No word mangling rules
+1 0:00:00:00 - Will distribute words across nodes
+1 0:00:00:04 GPU 0 probably invalid temp reading (-1°C).
+2 0:00:00:00 - Will distribute words across nodes
+2 0:00:00:09 GPU 1 probably invalid temp reading (-1°C).
+3 0:00:00:00 - Will distribute words across nodes
+3 0:00:00:09 GPU 2 probably invalid temp reading (-1°C).
+4 0:00:00:00 - Will distribute words across nodes
+4 0:00:00:08 GPU 3 probably invalid temp reading (-1°C).
+1 0:00:06:01 Continuing an interrupted session
+1 0:00:06:01 Loaded a total of 331 password hashes with 331 different salts
+1 0:00:06:01 Sorting salts, for performance
+1 0:00:06:01 Remaining 208 password hashes with 208 different salts
+1 0:00:06:01 Cost 1 (iteration count) is 5000 for all loaded hashes
+1 0:00:06:01 - Node numbers 1-4 of 4 (fork)
+4 0:00:06:01 Device 3: GRID K520
+2 0:00:06:01 Device 1: GRID K520
+3 0:00:06:01 Device 2: GRID K520
+4 0:00:06:01 Command line: /home/ubuntu/software/john/run/john --restore=sha512-words 
+4 0:00:06:01 - UTF-8 input encoding enabled
+4 0:00:06:01 - Passwords will be stored UTF-8 encoded in .pot file
+4 0:00:06:01 Sorting salts, for performance
+4 0:00:06:01 - OpenCL LWS: 32, GWS: 49152 (both auto-tuned) (1536 blocks)
+4 0:00:06:01 - Will reject candidates longer than 23 bytes
+4 0:00:06:01 Proceeding with wordlist mode
+4 0:00:06:01 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+4 0:00:06:01 - memory mapping wordlist (101176768 bytes)
+4 0:00:06:01 - No word mangling rules
+3 0:00:06:01 Command line: /home/ubuntu/software/john/run/john --restore=sha512-words 
+3 0:00:06:01 - UTF-8 input encoding enabled
+3 0:00:06:01 - Passwords will be stored UTF-8 encoded in .pot file
+3 0:00:06:01 Sorting salts, for performance
+3 0:00:06:01 - OpenCL LWS: 256, GWS: 49152 (both auto-tuned) (192 blocks)
+3 0:00:06:01 - Will reject candidates longer than 23 bytes
+3 0:00:06:01 Proceeding with wordlist mode
+3 0:00:06:01 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+3 0:00:06:01 - memory mapping wordlist (101176768 bytes)
+3 0:00:06:01 - No word mangling rules
+2 0:00:06:01 Command line: /home/ubuntu/software/john/run/john --restore=sha512-words 
+2 0:00:06:01 - UTF-8 input encoding enabled
+2 0:00:06:01 - Passwords will be stored UTF-8 encoded in .pot file
+2 0:00:06:01 Sorting salts, for performance
+2 0:00:06:01 - OpenCL LWS: 256, GWS: 98304 (both auto-tuned) (384 blocks)
+2 0:00:06:01 - Will reject candidates longer than 23 bytes
+2 0:00:06:01 Proceeding with wordlist mode
+2 0:00:06:01 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+2 0:00:06:01 - memory mapping wordlist (101176768 bytes)
+2 0:00:06:01 - No word mangling rules
+1 0:00:06:01 Device 0: GRID K520
+1 0:00:06:01 Command line: /home/ubuntu/software/john/run/john --restore=sha512-words 
+1 0:00:06:01 - UTF-8 input encoding enabled
+1 0:00:06:01 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:00:06:01 Sorting salts, for performance
+1 0:00:06:01 - OpenCL LWS: 256, GWS: 98304 (both auto-tuned) (384 blocks)
+1 0:00:06:01 - Hash type: sha512crypt-opencl, crypt(3) $6$ (min-len 0, max-len 7 [worst case UTF-8] to 23 [ASCII])
+1 0:00:06:01 - Algorithm: SHA512 OpenCL
+1 0:00:06:01 - Candidate passwords will be buffered and tried in chunks of 98304
+1 0:00:06:01 - Will reject candidates longer than 23 bytes
+1 0:00:06:01 Proceeding with wordlist mode
+1 0:00:06:01 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+1 0:00:06:01 - memory mapping wordlist (101176768 bytes)
+1 0:00:06:01 - No word mangling rules
+4 0:00:06:01 - Will distribute words across nodes
+4 0:00:06:05 GPU 3 probably invalid temp reading (-1°C).
+3 0:00:06:01 - Will distribute words across nodes
+3 0:00:06:05 GPU 2 probably invalid temp reading (-1°C).
+2 0:00:06:01 - Will distribute words across nodes
+2 0:00:06:09 GPU 1 probably invalid temp reading (-1°C).
+1 0:00:06:01 - Will distribute words across nodes
+1 0:00:06:05 GPU 0 probably invalid temp reading (-1°C).
+3 0:00:27:43 + Cracked ?
+2 0:00:29:01 + pot sync removed 1 hashes; Remaining 207 hashes with 207 different salts
+2 0:00:32:07 + Cracked ?
+4 0:00:35:16 + pot sync removed 2 hashes; Remaining 206 hashes with 206 different salts
+1 0:00:36:13 + Cracked ?
+1 0:00:37:43 + Cracked ?
+2 0:00:40:46 + Cracked ?
+1 0:00:43:08 + pot sync removed 3 hashes; Remaining 203 hashes with 203 different salts
+3 0:00:45:49 + pot sync removed 4 hashes; Remaining 203 hashes with 203 different salts
+1 0:00:46:47 + Cracked ?
+3 0:00:47:35 Session aborted
+2 0:00:47:32 Session aborted
+4 0:00:47:41 Session aborted
+1 0:00:47:35 Waiting for 3 children to terminate
+1 0:00:47:35 Session aborted
+1 0:00:47:36 Continuing an interrupted session
+1 0:00:47:36 Loaded a total of 331 password hashes with 331 different salts
+1 0:00:47:36 Sorting salts, for performance
+1 0:00:47:36 Remaining 202 password hashes with 202 different salts
+1 0:00:47:36 Cost 1 (iteration count) is 5000 for all loaded hashes
+1 0:00:47:36 - Node numbers 1-4 of 4 (fork)
+1 0:00:47:36 Continuing an interrupted session
+1 0:00:47:36 Loaded a total of 331 password hashes with 331 different salts
+1 0:00:47:36 Sorting salts, for performance
+1 0:00:47:36 Remaining 202 password hashes with 202 different salts
+1 0:00:47:36 Cost 1 (iteration count) is 5000 for all loaded hashes
+1 0:00:47:36 - Node numbers 1-4 of 4 (fork)
+2 0:00:47:36 Device 1: GRID K520
+3 0:00:47:36 Device 2: GRID K520
+4 0:00:47:36 Device 3: GRID K520
+3 0:00:47:36 Command line: /home/ubuntu/software/john/run/john --restore=sha512-words 
+3 0:00:47:36 - UTF-8 input encoding enabled
+3 0:00:47:36 - Passwords will be stored UTF-8 encoded in .pot file
+3 0:00:47:36 Sorting salts, for performance
+3 0:00:47:36 - OpenCL LWS: 32, GWS: 49152 (both auto-tuned) (1536 blocks)
+3 0:00:47:36 - Will reject candidates longer than 23 bytes
+3 0:00:47:36 Proceeding with wordlist mode
+3 0:00:47:36 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+3 0:00:47:36 - memory mapping wordlist (101176768 bytes)
+3 0:00:47:36 - No word mangling rules
+4 0:00:47:42 Command line: /home/ubuntu/software/john/run/john --restore=sha512-words 
+4 0:00:47:42 - UTF-8 input encoding enabled
+4 0:00:47:42 - Passwords will be stored UTF-8 encoded in .pot file
+4 0:00:47:42 Sorting salts, for performance
+4 0:00:47:42 - OpenCL LWS: 256, GWS: 98304 (both auto-tuned) (384 blocks)
+4 0:00:47:42 - Will reject candidates longer than 23 bytes
+4 0:00:47:42 Proceeding with wordlist mode
+4 0:00:47:42 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+4 0:00:47:42 - memory mapping wordlist (101176768 bytes)
+4 0:00:47:42 - No word mangling rules
+2 0:00:47:33 Command line: /home/ubuntu/software/john/run/john --restore=sha512-words 
+2 0:00:47:33 - UTF-8 input encoding enabled
+2 0:00:47:33 - Passwords will be stored UTF-8 encoded in .pot file
+2 0:00:47:33 Sorting salts, for performance
+2 0:00:47:33 - OpenCL LWS: 256, GWS: 196608 (both auto-tuned) (768 blocks)
+2 0:00:47:33 - Will reject candidates longer than 23 bytes
+2 0:00:47:33 Proceeding with wordlist mode
+2 0:00:47:33 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+2 0:00:47:33 - memory mapping wordlist (101176768 bytes)
+2 0:00:47:33 - No word mangling rules
+1 0:00:47:36 Device 0: GRID K520
+1 0:00:47:36 Command line: /home/ubuntu/software/john/run/john --restore=sha512-words 
+1 0:00:47:36 - UTF-8 input encoding enabled
+1 0:00:47:36 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:00:47:36 Sorting salts, for performance
+1 0:00:47:36 - OpenCL LWS: 256, GWS: 196608 (both auto-tuned) (768 blocks)
+1 0:00:47:36 - Hash type: sha512crypt-opencl, crypt(3) $6$ (min-len 0, max-len 7 [worst case UTF-8] to 23 [ASCII])
+1 0:00:47:36 - Algorithm: SHA512 OpenCL
+1 0:00:47:36 - Candidate passwords will be buffered and tried in chunks of 196608
+1 0:00:47:36 - Will reject candidates longer than 23 bytes
+1 0:00:47:36 Proceeding with wordlist mode
+1 0:00:47:36 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+1 0:00:47:36 - memory mapping wordlist (101176768 bytes)
+1 0:00:47:36 - No word mangling rules
+3 0:00:47:36 - Will distribute words across nodes
+3 0:00:47:41 GPU 2 probably invalid temp reading (-1°C).
+4 0:00:47:42 - Will distribute words across nodes
+4 0:00:47:46 GPU 3 probably invalid temp reading (-1°C).
+1 0:00:47:36 - Will distribute words across nodes
+1 0:00:47:44 GPU 0 probably invalid temp reading (-1°C).
+2 0:00:47:33 - Will distribute words across nodes
+2 0:00:47:41 GPU 1 probably invalid temp reading (-1°C).
+1 0:00:48:57 + Cracked ?
+1 0:00:50:34 + Cracked ?
+4 0:00:50:54 + pot sync removed 2 hashes; Remaining 200 hashes with 200 different salts
+1 0:00:53:32 + Cracked ?
+2 0:00:56:45 + pot sync removed 3 hashes; Remaining 199 hashes with 199 different salts
+3 0:00:59:09 + Cracked ?
+3 0:01:03:28 + pot sync removed 3 hashes; Remaining 198 hashes with 198 different salts
+1 0:01:10:36 + pot sync removed 1 hashes; Remaining 198 hashes with 198 different salts
+4 0:01:17:56 + pot sync removed 2 hashes; Remaining 198 hashes with 198 different salts
+4 0:01:29:09 + Cracked ?
+4 0:01:34:01 + Cracked ?
+3 0:01:34:36 + pot sync removed 1 hashes; Remaining 197 hashes with 197 different salts
+2 0:01:44:11 + Cracked ?
+3 0:01:50:05 + pot sync removed 2 hashes; Remaining 195 hashes with 195 different salts
+2 0:01:50:24 + pot sync removed 3 hashes; Remaining 195 hashes with 195 different salts
+2 0:01:53:53 + Cracked ?
+4 0:02:02:25 + Cracked ?
+1 0:02:03:58 + pot sync removed 5 hashes; Remaining 193 hashes with 193 different salts
+3 0:02:05:24 + pot sync removed 2 hashes; Remaining 193 hashes with 193 different salts
+4 0:02:11:13 + pot sync removed 2 hashes; Remaining 193 hashes with 193 different salts
+1 0:02:21:28 + Cracked ?
+3 0:02:22:04 + Cracked ?
+3 0:02:35:44 + pot sync removed 1 hashes; Remaining 191 hashes with 191 different salts
+4 0:02:37:19 + pot sync removed 2 hashes; Remaining 191 hashes with 191 different salts
+4 0:02:37:59 + Cracked ?
+2 0:02:42:57 + pot sync removed 4 hashes; Remaining 190 hashes with 190 different salts
+3 0:02:50:45 + pot sync removed 1 hashes; Remaining 190 hashes with 190 different salts
+2 0:02:54:31 + Cracked ?
+1 0:02:55:59 + pot sync removed 3 hashes; Remaining 189 hashes with 189 different salts
+4 0:02:59:37 + Cracked ?
+4 0:03:03:09 + pot sync removed 1 hashes; Remaining 188 hashes with 188 different salts
+3 0:03:05:22 + Cracked ?
+3 0:03:05:41 + pot sync removed 2 hashes; Remaining 187 hashes with 187 different salts
+4 0:03:09:46 + Cracked ?
+3 0:03:20:23 + pot sync removed 1 hashes; Remaining 186 hashes with 186 different salts
+2 0:03:26:20 + Cracked ?
+4 0:03:28:34 + pot sync removed 2 hashes; Remaining 185 hashes with 185 different salts
+2 0:03:34:10 + pot sync removed 3 hashes; Remaining 185 hashes with 185 different salts
+3 0:03:35:00 + pot sync removed 1 hashes; Remaining 185 hashes with 185 different salts
+1 0:03:46:55 + pot sync removed 4 hashes; Remaining 185 hashes with 185 different salts
+2 0:03:51:23 + Cracked ?
+4 0:03:53:35 + pot sync removed 1 hashes; Remaining 184 hashes with 184 different salts
+1 0:03:59:50 + Cracked ?
+3 0:04:04:05 + pot sync removed 2 hashes; Remaining 183 hashes with 183 different salts
+4 0:04:07:54 + Cracked ?
+3 0:04:18:28 + pot sync removed 1 hashes; Remaining 182 hashes with 182 different salts
+4 0:04:18:28 + pot sync removed 1 hashes; Remaining 182 hashes with 182 different salts
+3 0:04:20:02 + Cracked ?
+1 0:04:20:36 + Cracked ?
+1 0:04:23:17 + Cracked ?
+2 0:04:24:02 + pot sync removed 5 hashes; Remaining 179 hashes with 179 different salts
+4 0:04:29:08 + Cracked ?
+3 0:04:32:46 + pot sync removed 3 hashes; Remaining 178 hashes with 178 different salts
+4 0:04:33:04 + Cracked ?
+2 0:04:36:57 + Cracked ?
+2 0:04:37:29 + Cracked ?
+1 0:04:36:47 + pot sync removed 5 hashes; Remaining 177 hashes with 177 different salts
+4 0:04:43:05 + pot sync removed 5 hashes; Remaining 175 hashes with 175 different salts
+3 0:04:46:45 + pot sync removed 3 hashes; Remaining 175 hashes with 175 different salts
+1 0:04:50:47 + Cracked ?
+4 0:04:52:40 + Cracked ?
+1 0:04:53:28 + Cracked ?
+3 0:05:00:31 + pot sync removed 3 hashes; Remaining 172 hashes with 172 different salts
+4 0:04:59:42 + Cracked ?
+2 0:05:01:45 + Cracked ?
+2 0:05:05:31 + Cracked ?
+1 0:05:06:25 + Cracked ?
+4 0:05:06:45 + pot sync removed 4 hashes; Remaining 169 hashes with 169 different salts
+4 0:05:12:41 Session aborted
+3 0:05:12:41 Session aborted
+2 0:05:12:16 + pot sync removed 7 hashes; Remaining 168 hashes with 168 different salts
+1 0:05:11:37 Continuing an interrupted session
+1 0:05:11:37 Loaded a total of 331 password hashes with 331 different salts
+1 0:05:11:37 Sorting salts, for performance
+1 0:05:11:37 Remaining 168 password hashes with 168 different salts
+1 0:05:11:37 Cost 1 (iteration count) is 5000 for all loaded hashes
+1 0:05:11:37 - Node numbers 1-4 of 4 (fork)
+4 0:05:11:37 Device 3: GRID K520
+2 0:05:11:37 Device 1: GRID K520
+3 0:05:11:37 Device 2: GRID K520
+1 0:05:11:37 Device 0: GRID K520
+1 0:05:11:37 Command line: /home/ubuntu/software/john/run/john --restore=sha512-words 
+1 0:05:11:37 - UTF-8 input encoding enabled
+1 0:05:11:37 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:05:11:37 Sorting salts, for performance
+1 0:05:11:37 - OpenCL LWS: 32, GWS: 49152 (both auto-tuned) (1536 blocks)
+1 0:05:11:37 - Hash type: sha512crypt-opencl, crypt(3) $6$ (min-len 0, max-len 7 [worst case UTF-8] to 23 [ASCII])
+1 0:05:11:37 - Algorithm: SHA512 OpenCL
+1 0:05:11:37 - Candidate passwords will be buffered and tried in chunks of 49152
+2 0:05:12:34 Command line: /home/ubuntu/software/john/run/john --restore=sha512-words 
+2 0:05:12:34 - UTF-8 input encoding enabled
+2 0:05:12:34 - Passwords will be stored UTF-8 encoded in .pot file
+2 0:05:12:34 Sorting salts, for performance
+2 0:05:12:34 - OpenCL LWS: 32, GWS: 49152 (both auto-tuned) (1536 blocks)
+2 0:05:12:34 - Will reject candidates longer than 23 bytes
+2 0:05:12:34 Proceeding with wordlist mode
+2 0:05:12:34 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+2 0:05:12:34 - memory mapping wordlist (101176768 bytes)
+2 0:05:12:34 - No word mangling rules
+1 0:05:11:37 - Will reject candidates longer than 23 bytes
+1 0:05:11:37 Proceeding with wordlist mode
+1 0:05:11:37 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+1 0:05:11:37 - memory mapping wordlist (101176768 bytes)
+1 0:05:11:37 - No word mangling rules
+4 0:05:12:42 Command line: /home/ubuntu/software/john/run/john --restore=sha512-words 
+4 0:05:12:42 - UTF-8 input encoding enabled
+4 0:05:12:42 - Passwords will be stored UTF-8 encoded in .pot file
+4 0:05:12:42 Sorting salts, for performance
+4 0:05:12:42 - OpenCL LWS: 32, GWS: 98304 (both auto-tuned) (3072 blocks)
+4 0:05:12:42 - Will reject candidates longer than 23 bytes
+4 0:05:12:42 Proceeding with wordlist mode
+4 0:05:12:42 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+4 0:05:12:42 - memory mapping wordlist (101176768 bytes)
+4 0:05:12:42 - No word mangling rules
+3 0:05:12:42 Command line: /home/ubuntu/software/john/run/john --restore=sha512-words 
+3 0:05:12:42 - UTF-8 input encoding enabled
+3 0:05:12:42 - Passwords will be stored UTF-8 encoded in .pot file
+3 0:05:12:42 Sorting salts, for performance
+3 0:05:12:42 - OpenCL LWS: 32, GWS: 98304 (both auto-tuned) (3072 blocks)
+3 0:05:12:42 - Will reject candidates longer than 23 bytes
+3 0:05:12:42 Proceeding with wordlist mode
+3 0:05:12:42 - Wordlist file: ../dictionaries/unix_words_8_combos.txt
+3 0:05:12:42 - memory mapping wordlist (101176768 bytes)
+3 0:05:12:42 - No word mangling rules
+2 0:05:12:34 - Will distribute words across nodes
+2 0:05:12:38 GPU 1 probably invalid temp reading (-1°C).
+1 0:05:11:37 - Will distribute words across nodes
+1 0:05:11:41 GPU 0 probably invalid temp reading (-1°C).
+4 0:05:12:42 - Will distribute words across nodes
+4 0:05:12:51 GPU 3 probably invalid temp reading (-1°C).
+3 0:05:12:42 - Will distribute words across nodes
+3 0:05:12:46 GPU 2 probably invalid temp reading (-1°C).
+3 0:05:14:21 + Cracked ?
+1 0:05:15:14 + pot sync removed 1 hashes; Remaining 167 hashes with 167 different salts
+2 0:05:25:41 + pot sync removed 1 hashes; Remaining 167 hashes with 167 different salts
+4 0:05:32:07 + pot sync removed 1 hashes; Remaining 167 hashes with 167 different salts
+2 0:06:06:39 + Cracked ?
+1 0:06:07:45 + pot sync removed 1 hashes; Remaining 166 hashes with 166 different salts
+1 0:06:20:39 + Cracked ?
+4 0:06:24:23 + pot sync removed 2 hashes; Remaining 165 hashes with 165 different salts
+2 0:06:30:24 + Cracked ?
+2 0:06:31:16 + pot sync removed 1 hashes; Remaining 164 hashes with 164 different salts
+2 0:06:31:40 Session aborted
+1 0:06:30:43 Waiting for 3 children to terminate
+4 0:06:31:44 Session aborted
+3 0:06:31:49 Session aborted
+1 0:06:30:48 Session aborted

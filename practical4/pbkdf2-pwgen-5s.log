@@ -1,0 +1,173 @@
+1 0:00:00:00 Starting a new session
+1 0:00:00:00 Loaded a total of 333 password hashes with 333 different salts
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Remaining 329 password hashes with 329 different salts
+1 0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+1 0:00:00:00 - Node numbers 1-4 of 4 (fork)
+1 0:00:00:00 Device 0: GRID K520
+1 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --format=PBKDF2-HMAC-SHA256-opencl --pot=practical4.potfile --wordlist=../dictionaries/pwgen_5_lowers.txt --session=pbkdf2-pwgen-5s --fork=4 --devices=0,1,2,3 hashes/pbkdf2.hashes 
+1 0:00:00:00 - UTF-8 input encoding enabled
+1 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Device 0: GRID K520
+1 0:00:00:00 - OpenCL LWS: 256, GWS: 6144 (both auto-tuned) (24 blocks)
+1 0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+1 0:00:00:00 - Algorithm: PBKDF2-SHA256 OpenCL
+1 0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 6144
+1 0:00:00:00 - Will reject candidates longer than 55 bytes
+1 0:00:00:00 Proceeding with wordlist mode
+1 0:00:00:00 - Wordlist file: ../dictionaries/pwgen_5_lowers.txt
+1 0:00:00:00 - memory mapping wordlist (3600000 bytes)
+1 0:00:00:00 - No word mangling rules
+4 0:00:00:00 Device 3: GRID K520
+4 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --format=PBKDF2-HMAC-SHA256-opencl --pot=practical4.potfile --wordlist=../dictionaries/pwgen_5_lowers.txt --session=pbkdf2-pwgen-5s --fork=4 --devices=0,1,2,3 hashes/pbkdf2.hashes 
+4 0:00:00:00 - UTF-8 input encoding enabled
+4 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+4 0:00:00:00 Sorting salts, for performance
+4 0:00:00:00 Device 3: GRID K520
+4 0:00:00:00 - OpenCL LWS: 256, GWS: 6144 (both auto-tuned) (24 blocks)
+4 0:00:00:00 - Will reject candidates longer than 55 bytes
+4 0:00:00:00 Proceeding with wordlist mode
+4 0:00:00:00 - Wordlist file: ../dictionaries/pwgen_5_lowers.txt
+4 0:00:00:00 - memory mapping wordlist (3600000 bytes)
+4 0:00:00:00 - No word mangling rules
+3 0:00:00:00 Device 2: GRID K520
+3 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --format=PBKDF2-HMAC-SHA256-opencl --pot=practical4.potfile --wordlist=../dictionaries/pwgen_5_lowers.txt --session=pbkdf2-pwgen-5s --fork=4 --devices=0,1,2,3 hashes/pbkdf2.hashes 
+3 0:00:00:00 - UTF-8 input encoding enabled
+3 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+3 0:00:00:00 Sorting salts, for performance
+3 0:00:00:00 Device 2: GRID K520
+3 0:00:00:00 - OpenCL LWS: 256, GWS: 6144 (both auto-tuned) (24 blocks)
+3 0:00:00:00 - Will reject candidates longer than 55 bytes
+3 0:00:00:00 Proceeding with wordlist mode
+3 0:00:00:00 - Wordlist file: ../dictionaries/pwgen_5_lowers.txt
+3 0:00:00:00 - memory mapping wordlist (3600000 bytes)
+3 0:00:00:00 - No word mangling rules
+2 0:00:00:00 Device 1: GRID K520
+2 0:00:00:00 Command line: /home/ubuntu/software/john/run/john --format=PBKDF2-HMAC-SHA256-opencl --pot=practical4.potfile --wordlist=../dictionaries/pwgen_5_lowers.txt --session=pbkdf2-pwgen-5s --fork=4 --devices=0,1,2,3 hashes/pbkdf2.hashes 
+2 0:00:00:00 - UTF-8 input encoding enabled
+2 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+2 0:00:00:00 Sorting salts, for performance
+2 0:00:00:00 Device 1: GRID K520
+2 0:00:00:00 - OpenCL LWS: 256, GWS: 6144 (both auto-tuned) (24 blocks)
+2 0:00:00:00 - Will reject candidates longer than 55 bytes
+2 0:00:00:00 Proceeding with wordlist mode
+2 0:00:00:00 - Wordlist file: ../dictionaries/pwgen_5_lowers.txt
+2 0:00:00:00 - memory mapping wordlist (3600000 bytes)
+2 0:00:00:00 - No word mangling rules
+1 0:00:00:00 - Will distribute words across nodes
+1 0:00:00:02 + Cracked ?
+1 0:00:00:04 GPU 0 probably invalid temp reading (-1°C).
+1 0:00:00:09 + Cracked ?
+1 0:00:00:38 + Cracked ?
+3 0:00:00:00 - Will distribute words across nodes
+3 0:00:00:02 + Cracked ?
+3 0:00:00:04 GPU 2 probably invalid temp reading (-1°C).
+2 0:00:00:00 - Will distribute words across nodes
+2 0:00:00:02 + Cracked ?
+2 0:00:00:04 GPU 1 probably invalid temp reading (-1°C).
+2 0:00:00:09 + Cracked ?
+2 0:00:00:38 + Cracked ?
+2 0:00:00:59 + Cracked ?
+4 0:00:00:00 - Will distribute words across nodes
+4 0:00:00:02 + Cracked ?
+4 0:00:00:04 GPU 3 probably invalid temp reading (-1°C).
+4 0:00:00:09 + Cracked ?
+4 0:00:00:38 + Cracked ?
+4 0:00:00:59 + Cracked ?
+1 0:00:01:57 Waiting for 3 children to terminate
+3 0:00:01:57 Session aborted
+4 0:00:01:57 Session aborted
+2 0:00:01:57 Session aborted
+1 0:00:01:57 Session aborted
+1 0:00:01:58 Continuing an interrupted session
+1 0:00:01:58 Loaded a total of 333 password hashes with 333 different salts
+1 0:00:01:58 Sorting salts, for performance
+1 0:00:01:58 Remaining 325 password hashes with 325 different salts
+1 0:00:01:58 Cost 1 (iteration count) is 29000 for all loaded hashes
+1 0:00:01:58 - Node numbers 1-4 of 4 (fork)
+3 0:00:01:58 Device 2: GRID K520
+2 0:00:01:58 Device 1: GRID K520
+4 0:00:01:58 Device 3: GRID K520
+1 0:00:01:58 Device 0: GRID K520
+1 0:00:01:58 Command line: /home/ubuntu/software/john/run/john --restore=pbkdf2-pwgen-5s 
+1 0:00:01:58 - UTF-8 input encoding enabled
+1 0:00:01:58 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:00:01:58 Sorting salts, for performance
+1 0:00:01:58 Device 0: GRID K520
+1 0:00:01:58 - OpenCL LWS: 256, GWS: 6144 (both auto-tuned) (24 blocks)
+1 0:00:01:58 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+1 0:00:01:58 - Algorithm: PBKDF2-SHA256 OpenCL
+1 0:00:01:58 - Candidate passwords will be buffered and tried in chunks of 6144
+1 0:00:01:58 - Will reject candidates longer than 55 bytes
+1 0:00:01:58 Proceeding with wordlist mode
+1 0:00:01:58 - Wordlist file: ../dictionaries/pwgen_5_lowers.txt
+1 0:00:01:58 - memory mapping wordlist (3600000 bytes)
+1 0:00:01:58 - No word mangling rules
+4 0:00:01:58 Command line: /home/ubuntu/software/john/run/john --restore=pbkdf2-pwgen-5s 
+4 0:00:01:58 - UTF-8 input encoding enabled
+4 0:00:01:58 - Passwords will be stored UTF-8 encoded in .pot file
+4 0:00:01:58 Sorting salts, for performance
+4 0:00:01:58 Device 3: GRID K520
+4 0:00:01:58 - OpenCL LWS: 256, GWS: 6144 (both auto-tuned) (24 blocks)
+4 0:00:01:58 - Will reject candidates longer than 55 bytes
+4 0:00:01:58 Proceeding with wordlist mode
+4 0:00:01:58 - Wordlist file: ../dictionaries/pwgen_5_lowers.txt
+4 0:00:01:58 - memory mapping wordlist (3600000 bytes)
+4 0:00:01:58 - No word mangling rules
+3 0:00:01:58 Command line: /home/ubuntu/software/john/run/john --restore=pbkdf2-pwgen-5s 
+3 0:00:01:58 - UTF-8 input encoding enabled
+3 0:00:01:58 - Passwords will be stored UTF-8 encoded in .pot file
+3 0:00:01:58 Sorting salts, for performance
+3 0:00:01:58 Device 2: GRID K520
+3 0:00:01:58 - OpenCL LWS: 256, GWS: 6144 (both auto-tuned) (24 blocks)
+3 0:00:01:58 - Will reject candidates longer than 55 bytes
+3 0:00:01:58 Proceeding with wordlist mode
+3 0:00:01:58 - Wordlist file: ../dictionaries/pwgen_5_lowers.txt
+3 0:00:01:58 - memory mapping wordlist (3600000 bytes)
+3 0:00:01:58 - No word mangling rules
+2 0:00:01:58 Command line: /home/ubuntu/software/john/run/john --restore=pbkdf2-pwgen-5s 
+2 0:00:01:58 - UTF-8 input encoding enabled
+2 0:00:01:58 - Passwords will be stored UTF-8 encoded in .pot file
+2 0:00:01:58 Sorting salts, for performance
+2 0:00:01:58 Device 1: GRID K520
+2 0:00:01:58 - OpenCL LWS: 256, GWS: 6144 (both auto-tuned) (24 blocks)
+2 0:00:01:58 - Will reject candidates longer than 55 bytes
+2 0:00:01:58 Proceeding with wordlist mode
+2 0:00:01:58 - Wordlist file: ../dictionaries/pwgen_5_lowers.txt
+2 0:00:01:58 - memory mapping wordlist (3600000 bytes)
+2 0:00:01:58 - No word mangling rules
+1 0:00:01:58 - Will distribute words across nodes
+1 0:00:02:02 GPU 0 probably invalid temp reading (-1°C).
+1 0:00:02:31 + Cracked ?
+4 0:00:01:58 - Will distribute words across nodes
+4 0:00:02:02 GPU 3 probably invalid temp reading (-1°C).
+4 0:00:02:12 + Cracked ?
+4 0:00:02:26 + Cracked ?
+4 0:00:02:31 + Cracked ?
+4 0:00:02:38 + Cracked ?
+4 0:00:02:43 + Cracked ?
+3 0:00:01:58 - Will distribute words across nodes
+3 0:00:02:00 + Cracked ?
+3 0:00:02:02 GPU 2 probably invalid temp reading (-1°C).
+3 0:00:02:31 + Cracked ?
+3 0:00:02:43 + Cracked ?
+2 0:00:01:58 - Will distribute words across nodes
+2 0:00:02:02 GPU 1 probably invalid temp reading (-1°C).
+2 0:00:02:31 + Cracked ?
+4 0:00:03:50 + Cracked ?
+3 0:00:03:38 + Cracked ?
+3 0:00:03:50 + Cracked ?
+1 0:00:03:02 + Cracked ?
+1 0:00:03:38 + Cracked ?
+1 0:00:03:50 + Cracked ?
+2 0:00:03:50 + Cracked ?
+1 0:00:04:23 + Cracked ?
+1 0:00:04:43 Waiting for 3 children to terminate
+4 0:00:04:11 + Cracked ?
+4 0:00:04:23 + Cracked ?
+3 0:00:04:23 + Cracked ?
+4 0:00:04:43 Session aborted
+3 0:00:04:43 Session aborted
+2 0:00:04:43 Session aborted
+1 0:00:04:43 Session aborted

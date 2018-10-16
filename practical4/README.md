@@ -134,3 +134,17 @@ I think a small subset of rockyou (eg less 5 chars lower) + some numeric numbers
 - pbkdf2:
 - argon
 
+### 8 character compound word hint
+- Grabbed a list of english dictionary
+- Filtered to 4 chars
+- Used hashcat utils combinator to generate all 8 char strings from that list (was huge file)
+- Ran it for a while and got a few
+
+### Tried Unix word (dict) list
+- Same process as above
+- DES: Done got loads
+- MD5: Done got loads
+- SHA256: Running on my GPU ~24 hours
+- SHA512: Running on AWS suspended while I'm sleeping.
+- pbkdf2
+- argon

@@ -1,0 +1,147 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 333 password hashes with 333 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 314 password hashes with 314 different salts
+0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --session=pbkdf2-pwgen-5 --format=PBKDF2-HMAC-SHA256-opencl --pot=practical4.potfile --wordlist=../dictionaies/pwgen_5_chars.txt hashes/pbkdf2.hashes 
+0:00:00:00 - GPU 0: temp: 30°C fan: 15%
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Device 0: GeForce GTX 560 Ti
+0:00:00:00 - OpenCL LWS: 32, GWS: 6144 (both auto-tuned) (192 blocks)
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 OpenCL
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 6144
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 Terminating on error, wordlist.c:686
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 333 password hashes with 333 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 314 password hashes with 314 different salts
+0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:00:00 Command line: /home/stefano/software/john-the-ripper/run/john --session=pbkdf2-pwgen-5 --format=PBKDF2-HMAC-SHA256-opencl --pot=practical4.potfile --wordlist=../dictionaries/pwgen_5_chars.txt hashes/pbkdf2.hashes 
+0:00:00:00 - GPU 0: temp: 45°C fan: 29%
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Device 0: GeForce GTX 560 Ti
+0:00:00:00 - OpenCL LWS: 32, GWS: 6144 (both auto-tuned) (192 blocks)
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 OpenCL
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 6144
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: ../dictionaries/pwgen_5_chars.txt
+0:00:00:00 - memory mapping wordlist (1887798 bytes)
+0:00:00:00 - No word mangling rules
+0:00:03:01 Continuing an interrupted session
+0:00:03:01 Loaded a total of 333 password hashes with 333 different salts
+0:00:03:01 Sorting salts, for performance
+0:00:03:01 Remaining 314 password hashes with 314 different salts
+0:00:03:01 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:03:01 Command line: /home/stefano/software/john-the-ripper/run/john --restore=pbkdf2-pwgen-5 
+0:00:03:01 - GPU 0: temp: 37°C fan: 21%
+0:00:03:01 - UTF-8 input encoding enabled
+0:00:03:01 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:03:01 Sorting salts, for performance
+0:00:03:01 Device 0: GeForce GTX 560 Ti
+0:00:03:01 - OpenCL LWS: 32, GWS: 6144 (both auto-tuned) (192 blocks)
+0:00:03:01 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:03:01 - Algorithm: PBKDF2-SHA256 OpenCL
+0:00:03:01 - Candidate passwords will be buffered and tried in chunks of 6144
+0:00:03:01 - Will reject candidates longer than 55 bytes
+0:00:03:01 Proceeding with wordlist mode
+0:00:03:01 - Wordlist file: ../dictionaries/pwgen_5_chars.txt
+0:00:03:01 - memory mapping wordlist (1887798 bytes)
+0:00:03:01 - No word mangling rules
+0:00:07:23 + Cracked ?
+0:00:09:50 + Cracked ?
+0:00:10:31 + Cracked ?
+0:00:17:55 + Cracked ?
+0:00:22:02 + Cracked ?
+0:00:26:52 + Cracked ?
+0:00:27:14 + Cracked ?
+0:00:28:32 + Cracked ?
+0:00:29:10 + Cracked ?
+0:00:30:37 + Cracked ?
+0:00:32:02 + Cracked ?
+0:00:33:51 + Cracked ?
+0:00:47:30 + Cracked ?
+0:00:58:02 + Cracked ?
+0:01:03:12 + Cracked ?
+0:01:10:42 + Cracked ?
+0:01:25:23 + Cracked ?
+0:01:41:26 + Cracked ?
+0:01:43:41 + Cracked ?
+0:01:46:55 + Cracked ?
+0:02:05:28 + Cracked ?
+0:02:42:52 + Cracked ?
+0:02:46:15 + Cracked ?
+0:02:48:14 + Cracked ?
+0:02:49:48 + Cracked ?
+0:02:51:22 + Cracked ?
+0:02:54:04 + Cracked ?
+0:02:54:42 + Cracked ?
+0:03:10:48 + Cracked ?
+0:03:49:15 + Cracked ?
+0:04:08:07 + Cracked ?
+0:04:13:04 + Cracked ?
+0:04:29:35 + Cracked ?
+0:04:45:31 + Cracked ?
+0:04:49:26 + Cracked ?
+0:04:57:40 + Cracked ?
+0:04:57:49 + Cracked ?
+0:05:18:21 + Cracked ?
+0:05:35:04 + Cracked ?
+0:06:00:36 + Cracked ?
+0:06:01:48 + Cracked ?
+0:06:02:07 + Cracked ?
+0:06:06:42 + Cracked ?
+0:06:18:22 + Cracked ?
+0:06:30:50 + Cracked ?
+0:06:37:23 + Cracked ?
+0:06:37:45 + Cracked ?
+0:06:56:50 + Cracked ?
+0:07:30:13 + Cracked ?
+0:07:32:03 + Cracked ?
+0:07:32:47 + Cracked ?
+0:07:35:32 + Cracked ?
+0:07:39:02 + Cracked ?
+0:07:43:56 + Cracked ?
+0:07:52:19 + Cracked ?
+0:08:05:39 + Cracked ?
+0:08:07:00 + Cracked ?
+0:08:14:37 + Cracked ?
+0:08:21:36 + Cracked ?
+0:08:25:33 + Cracked ?
+0:08:36:21 + Cracked ?
+0:08:40:03 + Cracked ?
+0:08:42:01 + Cracked ?
+0:08:44:44 + Cracked ?
+0:08:58:04 + Cracked ?
+0:09:10:28 + Cracked ?
+0:09:16:34 + Cracked ?
+0:09:28:11 + Cracked ?
+0:09:29:45 + Cracked ?
+0:09:37:34 + Cracked ?
+0:09:37:53 + Cracked ?
+0:09:38:27 + Cracked ?
+0:09:42:03 + Cracked ?
+0:09:57:37 + Cracked ?
+0:09:58:24 + Cracked ?
+0:10:05:01 + Cracked ?
+0:10:10:48 + Cracked ?
+0:10:24:27 + Cracked ?
+0:10:28:37 + Cracked ?
+0:10:52:10 + Cracked ?
+0:10:57:39 + Cracked ?
+0:11:02:36 + Cracked ?
+0:11:04:06 + Cracked ?
+0:11:12:48 + Cracked ?
+0:11:27:11 + Cracked ?
+0:11:47:34 + Cracked ?
+0:11:51:50 + Cracked ?
+0:11:52:49 + Cracked ?
+0:13:15:42 Session completed

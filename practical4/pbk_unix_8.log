@@ -1,0 +1,81 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 333 password hashes with 333 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 226 password hashes with 226 different salts
+0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk_unix_8 --pot=practical4.potfile --wordlist=../dictionaries/unix_8char_combos.txt hashes/pbkdf2.hashes 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256 (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 256/256 AVX2 8x
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 8
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: ../dictionaries/unix_8char_combos.txt
+0:00:00:00 - memory mapping wordlist (100761444 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:02 Session aborted
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 333 password hashes with 333 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 226 password hashes with 226 different salts
+0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk_unix_8 --pot=practical4.potfile --wordlist=../dictionaries/unix_8char_combos.txt hashes/pbkdf2.hashes 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256 (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 256/256 AVX2 8x
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 8
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: ../dictionaries/unix_8char_combos.txt
+0:00:00:00 - memory mapping wordlist (100761444 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:04 Session aborted
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 333 password hashes with 333 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 226 password hashes with 226 different salts
+0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk_unix_8 --pot=practical4.potfile --wordlist=../dictionaries/unix_8char_combos.txt hashes/pbkdf2.hashes --format=PBKDF2-HMAC-SHA256 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256 (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 256/256 AVX2 8x
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 8
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: ../dictionaries/unix_8char_combos.txt
+0:00:00:00 - memory mapping wordlist (100761444 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 Session aborted
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 333 password hashes with 333 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 226 password hashes with 226 different salts
+0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk_unix_8 --pot=practical4.potfile --wordlist=../dictionaries/unix_8char_combos.txt hashes/pbkdf2.hashes --format=PBKDF2-HMAC-SHA256-opencl 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Device 0: Tesla P100-PCIE-16GB
+0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 OpenCL
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 14336
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: ../dictionaries/unix_8char_combos.txt
+0:00:00:00 - memory mapping wordlist (100761444 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:04 GPU 0 probably invalid temp reading (-1°C).
+0:00:04:45 + Cracked ?
+0:00:10:25 + Cracked ?
+0:00:11:32 + Cracked ?
+0:00:12:55 Session aborted

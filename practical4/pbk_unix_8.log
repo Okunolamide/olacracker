@@ -193,3 +193,99 @@
 0:02:26:02 + Cracked ?
 0:02:27:53 + Cracked ?
 0:02:30:51 Session aborted
+0:02:30:52 Continuing an interrupted session
+0:02:30:52 Loaded a total of 333 password hashes with 333 different salts
+0:02:30:52 Sorting salts, for performance
+0:02:30:52 Remaining 188 password hashes with 188 different salts
+0:02:30:52 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:02:30:52 Command line: /home/lupos/software/john/run/john --restore=pbk_unix_8 
+0:02:30:52 - UTF-8 input encoding enabled
+0:02:30:52 - Passwords will be stored UTF-8 encoded in .pot file
+0:02:30:52 Sorting salts, for performance
+0:02:30:52 Device 0: Tesla V100-SXM2-16GB
+0:02:30:52 - OpenCL LWS: 32, GWS: 40960 (both auto-tuned) (1280 blocks)
+0:02:30:52 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:02:30:52 - Algorithm: PBKDF2-SHA256 OpenCL
+0:02:30:52 - Will reject candidates longer than 55 bytes
+0:02:30:52 - Candidate passwords will be buffered and tried in chunks of 40960
+0:02:30:52 Proceeding with wordlist mode
+0:02:30:52 - Wordlist file: ../dictionaries/unix_8char_combos.txt
+0:02:30:52 - memory mapping wordlist (100761444 bytes)
+0:02:30:52 - No word mangling rules
+0:02:30:56 GPU 0 probably invalid temp reading (-1°C).
+0:02:31:44 + Cracked ?
+0:02:32:28 + Cracked ?
+0:02:41:34 + Cracked ?
+0:02:56:11 + Cracked ?
+0:02:56:25 + Cracked ?
+0:02:56:38 + Cracked ?
+0:02:56:44 + Cracked ?
+0:03:01:48 + Cracked ?
+0:03:06:17 + Cracked ?
+0:03:08:26 + Cracked ?
+0:03:14:10 + Cracked ?
+0:03:15:37 + Cracked ?
+0:03:19:32 + Cracked ?
+0:03:24:13 + Cracked ?
+0:03:31:44 + Cracked ?
+0:03:32:41 + Cracked ?
+0:03:38:24 + Cracked ?
+0:03:44:05 + Cracked ?
+0:03:52:19 + Cracked ?
+0:03:52:34 + Cracked ?
+0:03:53:27 + Cracked ?
+0:03:55:13 + Cracked ?
+0:03:55:57 + Cracked ?
+0:04:04:11 + Cracked ?
+0:04:12:46 + Cracked ?
+0:04:14:09 + Cracked ?
+0:04:16:55 + Cracked ?
+0:04:17:07 + Cracked ?
+0:04:17:35 + Cracked ?
+0:04:19:44 + Cracked ?
+0:04:21:10 + Cracked ?
+0:04:22:38 + Cracked ?
+0:04:30:57 + Cracked ?
+0:04:31:02 + Cracked ?
+0:04:33:28 + Cracked ?
+0:04:35:10 + Cracked ?
+0:04:36:29 + Cracked ?
+0:04:37:28 + Cracked ?
+0:04:39:33 + Cracked ?
+0:04:43:30 + Cracked ?
+0:04:46:45 + Cracked ?
+0:04:46:48 + Cracked ?
+0:04:49:52 + Cracked ?
+0:04:51:43 + Cracked ?
+0:04:55:46 + Cracked ?
+0:04:57:16 + Cracked ?
+0:05:00:36 + Cracked ?
+0:05:01:36 + Cracked ?
+0:05:02:42 + Cracked ?
+0:05:04:57 + Cracked ?
+0:05:08:10 + Cracked ?
+0:05:11:40 + Cracked ?
+0:05:12:29 + Cracked ?
+0:05:13:24 + Cracked ?
+0:05:13:55 + Cracked ?
+0:05:15:45 + Cracked ?
+0:05:18:44 + Cracked ?
+0:05:19:45 + Cracked ?
+0:05:20:37 + Cracked ?
+0:05:20:53 + Cracked ?
+0:05:21:05 + Cracked ?
+0:05:22:02 + Cracked ?
+0:05:23:41 + Cracked ?
+0:05:29:46 + Cracked ?
+0:05:33:29 + Cracked ?
+0:05:33:57 + Cracked ?
+0:05:34:04 + Cracked ?
+0:05:34:13 + Cracked ?
+0:05:35:24 + Cracked ?
+0:05:36:56 + Cracked ?
+0:05:37:47 + Cracked ?
+0:05:39:41 + Cracked ?
+0:05:41:29 + Cracked ?
+0:05:43:11 + Cracked ?
+0:05:46:05 + Cracked ?
+0:05:46:11 Session completed

@@ -136,3 +136,60 @@
 0:01:15:15 + Cracked ?
 0:01:20:07 + Cracked ?
 0:01:20:39 Session aborted
+0:01:20:40 Continuing an interrupted session
+0:01:20:40 Loaded a total of 333 password hashes with 333 different salts
+0:01:20:40 Sorting salts, for performance
+0:01:20:40 Remaining 204 password hashes with 204 different salts
+0:01:20:40 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:01:20:40 Command line: /home/lupos/software/john/run/john --restore=pbk_unix_8 
+0:01:20:40 - UTF-8 input encoding enabled
+0:01:20:40 - Passwords will be stored UTF-8 encoded in .pot file
+0:01:20:40 Sorting salts, for performance
+0:01:20:40 Device 0: Tesla V100-SXM2-16GB
+0:01:20:40 - OpenCL LWS: 32, GWS: 20480 (both auto-tuned) (640 blocks)
+0:01:20:40 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:01:20:40 - Algorithm: PBKDF2-SHA256 OpenCL
+0:01:20:40 - Will reject candidates longer than 55 bytes
+0:01:20:40 - Candidate passwords will be buffered and tried in chunks of 20480
+0:01:20:40 Proceeding with wordlist mode
+0:01:20:40 - Wordlist file: ../dictionaries/unix_8char_combos.txt
+0:01:20:40 - memory mapping wordlist (100761444 bytes)
+0:01:20:40 - No word mangling rules
+0:01:20:44 GPU 0 probably invalid temp reading (-1°C).
+0:01:24:08 + Cracked ?
+0:01:26:41 Continuing an interrupted session
+0:01:26:41 Loaded a total of 333 password hashes with 333 different salts
+0:01:26:41 Sorting salts, for performance
+0:01:26:41 Remaining 203 password hashes with 203 different salts
+0:01:26:41 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:01:26:41 Command line: /home/lupos/software/john/run/john --restore=pbk_unix_8 
+0:01:26:41 - UTF-8 input encoding enabled
+0:01:26:41 - Passwords will be stored UTF-8 encoded in .pot file
+0:01:26:41 Sorting salts, for performance
+0:01:26:41 Device 0: Tesla V100-SXM2-16GB
+0:01:26:41 - OpenCL LWS: 512, GWS: 40960 (both auto-tuned) (80 blocks)
+0:01:26:41 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:01:26:41 - Algorithm: PBKDF2-SHA256 OpenCL
+0:01:26:41 - Will reject candidates longer than 55 bytes
+0:01:26:41 - Candidate passwords will be buffered and tried in chunks of 40960
+0:01:26:41 Proceeding with wordlist mode
+0:01:26:41 - Wordlist file: ../dictionaries/unix_8char_combos.txt
+0:01:26:41 - memory mapping wordlist (100761444 bytes)
+0:01:26:41 - No word mangling rules
+0:01:26:45 GPU 0 probably invalid temp reading (-1°C).
+0:01:42:01 + Cracked ?
+0:01:48:35 + Cracked ?
+0:01:50:00 + Cracked ?
+0:01:50:45 + Cracked ?
+0:01:55:01 + Cracked ?
+0:02:01:58 + Cracked ?
+0:02:05:33 + Cracked ?
+0:02:09:04 + Cracked ?
+0:02:10:33 + Cracked ?
+0:02:14:30 + Cracked ?
+0:02:18:46 + Cracked ?
+0:02:20:40 + Cracked ?
+0:02:21:58 + Cracked ?
+0:02:26:02 + Cracked ?
+0:02:27:53 + Cracked ?
+0:02:30:51 Session aborted

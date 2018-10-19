@@ -79,3 +79,60 @@
 0:00:10:25 + Cracked ?
 0:00:11:32 + Cracked ?
 0:00:12:55 Session aborted
+0:00:12:56 Continuing an interrupted session
+0:00:12:56 Loaded a total of 333 password hashes with 333 different salts
+0:00:12:56 Sorting salts, for performance
+0:00:12:56 Remaining 223 password hashes with 223 different salts
+0:00:12:56 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:12:56 Command line: /home/lupos/software/john/run/john --restore=pbk_unix_8 
+0:00:12:56 - UTF-8 input encoding enabled
+0:00:12:56 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:12:56 Sorting salts, for performance
+0:00:12:56 Device 0: Tesla V100-SXM2-16GB
+0:00:12:56 - OpenCL LWS: 32, GWS: 20480 (both auto-tuned) (640 blocks)
+0:00:12:56 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:12:56 - Algorithm: PBKDF2-SHA256 OpenCL
+0:00:12:56 - Will reject candidates longer than 55 bytes
+0:00:12:56 - Candidate passwords will be buffered and tried in chunks of 20480
+0:00:12:56 Proceeding with wordlist mode
+0:00:12:56 Terminating on error, wordlist.c:690
+0:00:12:56 Continuing an interrupted session
+0:00:12:56 Loaded a total of 333 password hashes with 333 different salts
+0:00:12:56 Sorting salts, for performance
+0:00:12:56 Remaining 223 password hashes with 223 different salts
+0:00:12:56 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:12:56 Command line: /home/lupos/software/john/run/john --restore=pbk_unix_8 
+0:00:12:56 - UTF-8 input encoding enabled
+0:00:12:56 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:12:56 Sorting salts, for performance
+0:00:12:56 Device 0: Tesla V100-SXM2-16GB
+0:00:12:56 - OpenCL LWS: 32, GWS: 20480 (both auto-tuned) (640 blocks)
+0:00:12:56 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:12:56 - Algorithm: PBKDF2-SHA256 OpenCL
+0:00:12:56 - Will reject candidates longer than 55 bytes
+0:00:12:56 - Candidate passwords will be buffered and tried in chunks of 20480
+0:00:12:56 Proceeding with wordlist mode
+0:00:12:56 - Wordlist file: ../dictionaries/unix_8char_combos.txt
+0:00:12:56 - memory mapping wordlist (100761444 bytes)
+0:00:12:56 - No word mangling rules
+0:00:13:00 GPU 0 probably invalid temp reading (-1°C).
+0:00:16:58 + Cracked ?
+0:00:18:14 + Cracked ?
+0:00:22:08 + Cracked ?
+0:00:22:34 + Cracked ?
+0:00:29:41 + Cracked ?
+0:00:32:01 + Cracked ?
+0:00:33:26 + Cracked ?
+0:00:34:21 + Cracked ?
+0:00:39:37 + Cracked ?
+0:00:42:57 + Cracked ?
+0:00:47:13 + Cracked ?
+0:00:48:13 + Cracked ?
+0:00:51:44 + Cracked ?
+0:01:04:06 + Cracked ?
+0:01:06:41 + Cracked ?
+0:01:12:05 + Cracked ?
+0:01:12:12 + Cracked ?
+0:01:15:15 + Cracked ?
+0:01:20:07 + Cracked ?
+0:01:20:39 Session aborted

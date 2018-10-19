@@ -1,0 +1,517 @@
+1 0:00:00:00 Starting a new session
+1 0:00:00:00 Loaded a total of 333 password hashes with 333 different salts
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Remaining 226 password hashes with 226 different salts
+1 0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+1 0:00:00:00 - Node numbers 1-4 of 4 (fork)
+1 0:00:00:00 Starting a new session
+1 0:00:00:00 Loaded a total of 333 password hashes with 333 different salts
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Remaining 226 password hashes with 226 different salts
+1 0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+1 0:00:00:00 - Node numbers 1-4 of 4 (fork)
+3 0:00:00:00 Device 2: Tesla P100-PCIE-16GB
+3 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --pot=practical4.potfile --fork=4 --devices=0,1,2,3 --format=PBKDF2-HMAC-SHA256-opencl --wordlist=../dictionaries/rockyou.txt hashes/pbkdf2.hashes 
+3 0:00:00:00 - UTF-8 input encoding enabled
+3 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+3 0:00:00:00 Sorting salts, for performance
+3 0:00:00:00 Device 2: Tesla P100-PCIE-16GB
+3 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+3 0:00:00:00 - Will reject candidates longer than 55 bytes
+3 0:00:00:00 Proceeding with wordlist mode
+3 0:00:00:00 - Wordlist file: ../dictionaries/rockyou.txt
+3 0:00:00:00 - memory mapping wordlist (139921497 bytes)
+3 0:00:00:00 - No word mangling rules
+2 0:00:00:00 Device 1: Tesla P100-PCIE-16GB
+2 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --pot=practical4.potfile --fork=4 --devices=0,1,2,3 --format=PBKDF2-HMAC-SHA256-opencl --wordlist=../dictionaries/rockyou.txt hashes/pbkdf2.hashes 
+2 0:00:00:00 - UTF-8 input encoding enabled
+2 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+2 0:00:00:00 Sorting salts, for performance
+2 0:00:00:00 Device 1: Tesla P100-PCIE-16GB
+2 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+2 0:00:00:00 - Will reject candidates longer than 55 bytes
+2 0:00:00:00 Proceeding with wordlist mode
+2 0:00:00:00 - Wordlist file: ../dictionaries/rockyou.txt
+2 0:00:00:00 - memory mapping wordlist (139921497 bytes)
+2 0:00:00:00 - No word mangling rules
+4 0:00:00:00 Device 3: Tesla P100-PCIE-16GB
+4 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --pot=practical4.potfile --fork=4 --devices=0,1,2,3 --format=PBKDF2-HMAC-SHA256-opencl --wordlist=../dictionaries/rockyou.txt hashes/pbkdf2.hashes 
+4 0:00:00:00 - UTF-8 input encoding enabled
+4 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+4 0:00:00:00 Sorting salts, for performance
+4 0:00:00:00 Device 3: Tesla P100-PCIE-16GB
+4 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+4 0:00:00:00 - Will reject candidates longer than 55 bytes
+4 0:00:00:00 Proceeding with wordlist mode
+4 0:00:00:00 - Wordlist file: ../dictionaries/rockyou.txt
+4 0:00:00:00 - memory mapping wordlist (139921497 bytes)
+4 0:00:00:00 - No word mangling rules
+1 0:00:00:00 Device 0: Tesla P100-PCIE-16GB
+1 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --pot=practical4.potfile --fork=4 --devices=0,1,2,3 --format=PBKDF2-HMAC-SHA256-opencl --wordlist=../dictionaries/rockyou.txt hashes/pbkdf2.hashes 
+1 0:00:00:00 - UTF-8 input encoding enabled
+1 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Device 0: Tesla P100-PCIE-16GB
+1 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+1 0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+1 0:00:00:00 - Algorithm: PBKDF2-SHA256 OpenCL
+1 0:00:00:00 - Will reject candidates longer than 55 bytes
+1 0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 14336
+1 0:00:00:00 Proceeding with wordlist mode
+1 0:00:00:00 - Wordlist file: ../dictionaries/rockyou.txt
+1 0:00:00:00 - memory mapping wordlist (139921497 bytes)
+1 0:00:00:00 - No word mangling rules
+3 0:00:00:00 - Will distribute words across nodes
+3 0:00:00:04 GPU 2 probably invalid temp reading (-1°C).
+2 0:00:00:00 - Will distribute words across nodes
+2 0:00:00:04 GPU 1 probably invalid temp reading (-1°C).
+4 0:00:00:00 - Will distribute words across nodes
+4 0:00:00:04 GPU 3 probably invalid temp reading (-1°C).
+1 0:00:00:00 - Will distribute words across nodes
+1 0:00:00:04 GPU 0 probably invalid temp reading (-1°C).
+1 0:00:01:38 Waiting for 3 children to terminate
+1 0:00:00:00 Starting a new session
+1 0:00:00:00 Loaded a total of 333 password hashes with 333 different salts
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+1 0:00:00:00 - Node numbers 1-4 of 4 (fork)
+2 0:00:00:00 Device 1: Tesla P100-PCIE-16GB
+2 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --format=PBKDF2-HMAC-SHA256-opencl --fork=4 --devices=0,1,2,3 --wordlist=../dictionaries/rockyou_first_half.txt hashes/pbkdf2.hashes 
+2 0:00:00:00 - UTF-8 input encoding enabled
+2 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+2 0:00:00:00 Sorting salts, for performance
+2 0:00:00:00 Device 1: Tesla P100-PCIE-16GB
+2 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+2 0:00:00:00 - Will reject candidates longer than 55 bytes
+2 0:00:00:00 Proceeding with wordlist mode
+2 0:00:00:00 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+2 0:00:00:00 - memory mapping wordlist (68982956 bytes)
+2 0:00:00:00 - No word mangling rules
+3 0:00:00:00 Device 2: Tesla P100-PCIE-16GB
+3 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --format=PBKDF2-HMAC-SHA256-opencl --fork=4 --devices=0,1,2,3 --wordlist=../dictionaries/rockyou_first_half.txt hashes/pbkdf2.hashes 
+3 0:00:00:00 - UTF-8 input encoding enabled
+3 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+3 0:00:00:00 Sorting salts, for performance
+3 0:00:00:00 Device 2: Tesla P100-PCIE-16GB
+3 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+3 0:00:00:00 - Will reject candidates longer than 55 bytes
+3 0:00:00:00 Proceeding with wordlist mode
+3 0:00:00:00 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+3 0:00:00:00 - memory mapping wordlist (68982956 bytes)
+3 0:00:00:00 - No word mangling rules
+4 0:00:00:00 Device 3: Tesla P100-PCIE-16GB
+4 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --format=PBKDF2-HMAC-SHA256-opencl --fork=4 --devices=0,1,2,3 --wordlist=../dictionaries/rockyou_first_half.txt hashes/pbkdf2.hashes 
+4 0:00:00:00 - UTF-8 input encoding enabled
+4 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+4 0:00:00:00 Sorting salts, for performance
+4 0:00:00:00 Device 3: Tesla P100-PCIE-16GB
+4 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+4 0:00:00:00 - Will reject candidates longer than 55 bytes
+4 0:00:00:00 Proceeding with wordlist mode
+4 0:00:00:00 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+4 0:00:00:00 - memory mapping wordlist (68982956 bytes)
+4 0:00:00:00 - No word mangling rules
+1 0:00:00:00 Device 0: Tesla P100-PCIE-16GB
+1 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --format=PBKDF2-HMAC-SHA256-opencl --fork=4 --devices=0,1,2,3 --wordlist=../dictionaries/rockyou_first_half.txt hashes/pbkdf2.hashes 
+1 0:00:00:00 - UTF-8 input encoding enabled
+1 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Device 0: Tesla P100-PCIE-16GB
+1 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+1 0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+1 0:00:00:00 - Algorithm: PBKDF2-SHA256 OpenCL
+1 0:00:00:00 - Will reject candidates longer than 55 bytes
+1 0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 14336
+1 0:00:00:00 Proceeding with wordlist mode
+1 0:00:00:00 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+1 0:00:00:00 - memory mapping wordlist (68982956 bytes)
+1 0:00:00:00 - No word mangling rules
+4 0:00:00:00 - Will distribute words across nodes
+4 0:00:00:04 GPU 3 probably invalid temp reading (-1°C).
+1 0:00:00:00 Starting a new session
+1 0:00:00:00 Loaded a total of 333 password hashes with 333 different salts
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+1 0:00:00:00 - Node numbers 1-4 of 4 (fork)
+2 0:00:00:00 Device 1: Tesla P100-PCIE-16GB
+2 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --format=PBKDF2-HMAC-SHA256-opencl --fork=4 --devices=0,1,2,3 --wordlist=../dictionaries/rockyou_first_half.txt hashes/pbkdf2.hashes 
+2 0:00:00:00 - UTF-8 input encoding enabled
+2 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+2 0:00:00:00 Sorting salts, for performance
+2 0:00:00:00 Device 1: Tesla P100-PCIE-16GB
+2 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+2 0:00:00:00 - Will reject candidates longer than 55 bytes
+2 0:00:00:00 Proceeding with wordlist mode
+2 0:00:00:00 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+2 0:00:00:00 - memory mapping wordlist (68982956 bytes)
+2 0:00:00:00 - No word mangling rules
+4 0:00:00:00 Device 3: Tesla P100-PCIE-16GB
+4 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --format=PBKDF2-HMAC-SHA256-opencl --fork=4 --devices=0,1,2,3 --wordlist=../dictionaries/rockyou_first_half.txt hashes/pbkdf2.hashes 
+4 0:00:00:00 - UTF-8 input encoding enabled
+4 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+4 0:00:00:00 Sorting salts, for performance
+4 0:00:00:00 Device 3: Tesla P100-PCIE-16GB
+4 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+4 0:00:00:00 - Will reject candidates longer than 55 bytes
+4 0:00:00:00 Proceeding with wordlist mode
+4 0:00:00:00 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+4 0:00:00:00 - memory mapping wordlist (68982956 bytes)
+4 0:00:00:00 - No word mangling rules
+3 0:00:00:00 Device 2: Tesla P100-PCIE-16GB
+3 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --format=PBKDF2-HMAC-SHA256-opencl --fork=4 --devices=0,1,2,3 --wordlist=../dictionaries/rockyou_first_half.txt hashes/pbkdf2.hashes 
+3 0:00:00:00 - UTF-8 input encoding enabled
+3 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+3 0:00:00:00 Sorting salts, for performance
+3 0:00:00:00 Device 2: Tesla P100-PCIE-16GB
+3 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+3 0:00:00:00 - Will reject candidates longer than 55 bytes
+3 0:00:00:00 Proceeding with wordlist mode
+3 0:00:00:00 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+3 0:00:00:00 - memory mapping wordlist (68982956 bytes)
+3 0:00:00:00 - No word mangling rules
+1 0:00:00:00 Device 0: Tesla P100-PCIE-16GB
+1 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --format=PBKDF2-HMAC-SHA256-opencl --fork=4 --devices=0,1,2,3 --wordlist=../dictionaries/rockyou_first_half.txt hashes/pbkdf2.hashes 
+1 0:00:00:00 - UTF-8 input encoding enabled
+1 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Device 0: Tesla P100-PCIE-16GB
+1 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+1 0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+1 0:00:00:00 - Algorithm: PBKDF2-SHA256 OpenCL
+1 0:00:00:00 - Will reject candidates longer than 55 bytes
+1 0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 14336
+1 0:00:00:00 Proceeding with wordlist mode
+1 0:00:00:00 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+1 0:00:00:00 - memory mapping wordlist (68982956 bytes)
+1 0:00:00:00 - No word mangling rules
+1 0:00:00:00 Starting a new session
+1 0:00:00:00 Loaded a total of 333 password hashes with 333 different salts
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Remaining 113 password hashes with 113 different salts
+1 0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+1 0:00:00:00 - Node numbers 1-4 of 4 (fork)
+4 0:00:00:00 Device 3: Tesla P100-PCIE-16GB
+4 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --format=PBKDF2-HMAC-SHA256-opencl --fork=4 --devices=0,1,2,3 --wordlist=../dictionaries/rockyou_first_half.txt hashes/pbkdf2.hashes --pot=practical4.potfile 
+4 0:00:00:00 - UTF-8 input encoding enabled
+4 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+4 0:00:00:00 Sorting salts, for performance
+4 0:00:00:00 Device 3: Tesla P100-PCIE-16GB
+4 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+4 0:00:00:00 - Will reject candidates longer than 55 bytes
+4 0:00:00:00 Proceeding with wordlist mode
+4 0:00:00:00 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+4 0:00:00:00 - memory mapping wordlist (68982956 bytes)
+4 0:00:00:00 - No word mangling rules
+3 0:00:00:00 Device 2: Tesla P100-PCIE-16GB
+3 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --format=PBKDF2-HMAC-SHA256-opencl --fork=4 --devices=0,1,2,3 --wordlist=../dictionaries/rockyou_first_half.txt hashes/pbkdf2.hashes --pot=practical4.potfile 
+3 0:00:00:00 - UTF-8 input encoding enabled
+3 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+3 0:00:00:00 Sorting salts, for performance
+3 0:00:00:00 Device 2: Tesla P100-PCIE-16GB
+3 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+3 0:00:00:00 - Will reject candidates longer than 55 bytes
+3 0:00:00:00 Proceeding with wordlist mode
+3 0:00:00:00 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+3 0:00:00:00 - memory mapping wordlist (68982956 bytes)
+3 0:00:00:00 - No word mangling rules
+2 0:00:00:00 Device 1: Tesla P100-PCIE-16GB
+2 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --format=PBKDF2-HMAC-SHA256-opencl --fork=4 --devices=0,1,2,3 --wordlist=../dictionaries/rockyou_first_half.txt hashes/pbkdf2.hashes --pot=practical4.potfile 
+2 0:00:00:00 - UTF-8 input encoding enabled
+2 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+2 0:00:00:00 Sorting salts, for performance
+2 0:00:00:00 Device 1: Tesla P100-PCIE-16GB
+2 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+2 0:00:00:00 - Will reject candidates longer than 55 bytes
+2 0:00:00:00 Proceeding with wordlist mode
+2 0:00:00:00 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+2 0:00:00:00 - memory mapping wordlist (68982956 bytes)
+2 0:00:00:00 - No word mangling rules
+1 0:00:00:00 Device 0: Tesla P100-PCIE-16GB
+1 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=pbk-ru --format=PBKDF2-HMAC-SHA256-opencl --fork=4 --devices=0,1,2,3 --wordlist=../dictionaries/rockyou_first_half.txt hashes/pbkdf2.hashes --pot=practical4.potfile 
+1 0:00:00:00 - UTF-8 input encoding enabled
+1 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Device 0: Tesla P100-PCIE-16GB
+1 0:00:00:00 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+1 0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+1 0:00:00:00 - Algorithm: PBKDF2-SHA256 OpenCL
+1 0:00:00:00 - Will reject candidates longer than 55 bytes
+1 0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 14336
+1 0:00:00:00 Proceeding with wordlist mode
+1 0:00:00:00 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+1 0:00:00:00 - memory mapping wordlist (68982956 bytes)
+1 0:00:00:00 - No word mangling rules
+4 0:00:00:00 - Will distribute words across nodes
+4 0:00:00:04 GPU 3 probably invalid temp reading (-1°C).
+3 0:00:00:00 - Will distribute words across nodes
+3 0:00:00:04 GPU 2 probably invalid temp reading (-1°C).
+1 0:00:00:00 - Will distribute words across nodes
+1 0:00:00:04 GPU 0 probably invalid temp reading (-1°C).
+2 0:00:00:00 - Will distribute words across nodes
+2 0:00:00:04 GPU 1 probably invalid temp reading (-1°C).
+2 0:00:02:08 + Cracked ?
+4 0:00:03:49 + pot sync removed 1 hashes; Remaining 112 hashes with 112 different salts
+3 0:00:03:28 + Cracked ?
+3 0:00:03:48 + pot sync removed 1 hashes; Remaining 111 hashes with 111 different salts
+1 0:00:03:16 + Cracked ?
+1 0:00:03:49 + pot sync removed 1 hashes; Remaining 111 hashes with 111 different salts
+4 0:00:04:45 + pot sync removed 2 hashes; Remaining 110 hashes with 110 different salts
+3 0:00:04:44 + pot sync removed 1 hashes; Remaining 110 hashes with 110 different salts
+2 0:00:04:45 + pot sync removed 2 hashes; Remaining 110 hashes with 110 different salts
+1 0:00:04:45 + pot sync removed 1 hashes; Remaining 110 hashes with 110 different salts
+1 0:00:05:50 + Cracked ?
+4 0:00:06:36 + pot sync removed 1 hashes; Remaining 109 hashes with 109 different salts
+4 0:00:06:49 + Cracked ?
+3 0:00:06:20 + Cracked ?
+3 0:00:06:22 + Cracked ?
+3 0:00:06:35 + pot sync removed 1 hashes; Remaining 107 hashes with 107 different salts
+2 0:00:06:35 + pot sync removed 1 hashes; Remaining 109 hashes with 109 different salts
+4 0:00:07:31 + pot sync removed 2 hashes; Remaining 106 hashes with 106 different salts
+3 0:00:07:29 + pot sync removed 1 hashes; Remaining 106 hashes with 106 different salts
+2 0:00:07:30 + pot sync removed 3 hashes; Remaining 106 hashes with 106 different salts
+1 0:00:07:30 + pot sync removed 3 hashes; Remaining 106 hashes with 106 different salts
+2 0:00:10:41 + Cracked ?
+4 0:00:11:05 + pot sync removed 1 hashes; Remaining 105 hashes with 105 different salts
+3 0:00:11:03 + pot sync removed 1 hashes; Remaining 105 hashes with 105 different salts
+1 0:00:11:05 + pot sync removed 1 hashes; Remaining 105 hashes with 105 different salts
+2 0:00:16:39 + Cracked ?
+4 0:00:17:18 + pot sync removed 1 hashes; Remaining 104 hashes with 104 different salts
+3 0:00:17:15 + pot sync removed 1 hashes; Remaining 104 hashes with 104 different salts
+1 0:00:17:17 + pot sync removed 1 hashes; Remaining 104 hashes with 104 different salts
+4 0:00:20:50 + Cracked ?
+3 0:00:21:38 + pot sync removed 1 hashes; Remaining 103 hashes with 103 different salts
+2 0:00:21:14 + Cracked ?
+2 0:00:21:40 + pot sync removed 1 hashes; Remaining 102 hashes with 102 different salts
+1 0:00:21:39 + pot sync removed 1 hashes; Remaining 103 hashes with 103 different salts
+4 0:00:22:33 + pot sync removed 1 hashes; Remaining 102 hashes with 102 different salts
+4 0:00:22:44 + Cracked ?
+3 0:00:22:30 + pot sync removed 1 hashes; Remaining 102 hashes with 102 different salts
+1 0:00:22:32 + pot sync removed 1 hashes; Remaining 102 hashes with 102 different salts
+3 0:00:23:21 + pot sync removed 1 hashes; Remaining 101 hashes with 101 different salts
+2 0:00:23:22 + pot sync removed 1 hashes; Remaining 101 hashes with 101 different salts
+1 0:00:23:24 + pot sync removed 1 hashes; Remaining 101 hashes with 101 different salts
+1 0:00:24:22 + Cracked ?
+4 0:00:25:06 + pot sync removed 1 hashes; Remaining 100 hashes with 100 different salts
+3 0:00:25:03 + pot sync removed 1 hashes; Remaining 100 hashes with 100 different salts
+1 0:00:25:35 + Cracked ?
+2 0:00:25:05 + pot sync removed 1 hashes; Remaining 100 hashes with 100 different salts
+4 0:00:26:47 + pot sync removed 1 hashes; Remaining 99 hashes with 99 different salts
+3 0:00:26:30 + Cracked ?
+3 0:00:26:45 + pot sync removed 1 hashes; Remaining 98 hashes with 98 different salts
+2 0:00:26:46 + pot sync removed 1 hashes; Remaining 99 hashes with 99 different salts
+1 0:00:26:55 + Cracked ?
+4 0:00:27:37 + pot sync removed 2 hashes; Remaining 97 hashes with 97 different salts
+4 0:00:27:56 + Cracked ?
+3 0:00:27:34 + pot sync removed 1 hashes; Remaining 97 hashes with 97 different salts
+2 0:00:27:35 + pot sync removed 2 hashes; Remaining 97 hashes with 97 different salts
+1 0:00:27:36 + pot sync removed 1 hashes; Remaining 97 hashes with 97 different salts
+3 0:00:28:23 + pot sync removed 1 hashes; Remaining 96 hashes with 96 different salts
+2 0:00:28:24 + pot sync removed 1 hashes; Remaining 96 hashes with 96 different salts
+1 0:00:28:25 + pot sync removed 1 hashes; Remaining 96 hashes with 96 different salts
+2 0:00:30:12 + Cracked ?
+4 0:00:31:40 + pot sync removed 1 hashes; Remaining 95 hashes with 95 different salts
+3 0:00:31:37 + pot sync removed 1 hashes; Remaining 95 hashes with 95 different salts
+3 0:00:31:54 + Cracked ?
+1 0:00:31:39 + pot sync removed 1 hashes; Remaining 95 hashes with 95 different salts
+4 0:00:32:28 + pot sync removed 1 hashes; Remaining 94 hashes with 94 different salts
+2 0:00:32:26 + pot sync removed 1 hashes; Remaining 94 hashes with 94 different salts
+1 0:00:32:28 + pot sync removed 1 hashes; Remaining 94 hashes with 94 different salts
+1 0:00:33:04 + Cracked ?
+4 0:00:34:03 + pot sync removed 1 hashes; Remaining 93 hashes with 93 different salts
+3 0:00:34:01 + pot sync removed 1 hashes; Remaining 93 hashes with 93 different salts
+2 0:00:34:01 + pot sync removed 1 hashes; Remaining 93 hashes with 93 different salts
+2 0:00:34:45 + Cracked ?
+4 0:00:35:38 + pot sync removed 1 hashes; Remaining 92 hashes with 92 different salts
+3 0:00:35:35 + pot sync removed 1 hashes; Remaining 92 hashes with 92 different salts
+1 0:00:35:37 + pot sync removed 1 hashes; Remaining 92 hashes with 92 different salts
+1 0:00:39:37 + Cracked ?
+4 0:00:40:18 + pot sync removed 1 hashes; Remaining 91 hashes with 91 different salts
+3 0:00:40:16 + pot sync removed 1 hashes; Remaining 91 hashes with 91 different salts
+2 0:00:40:16 + pot sync removed 1 hashes; Remaining 91 hashes with 91 different salts
+3 0:00:45:26 + Cracked ?
+2 0:00:45:56 + Cracked ?
+4 0:00:46:27 + pot sync removed 2 hashes; Remaining 89 hashes with 89 different salts
+3 0:00:46:25 + pot sync removed 1 hashes; Remaining 89 hashes with 89 different salts
+2 0:00:46:24 + pot sync removed 1 hashes; Remaining 89 hashes with 89 different salts
+1 0:00:46:26 + pot sync removed 2 hashes; Remaining 89 hashes with 89 different salts
+2 0:00:49:47 + Cracked ?
+4 0:00:50:12 + pot sync removed 1 hashes; Remaining 88 hashes with 88 different salts
+3 0:00:50:10 + pot sync removed 1 hashes; Remaining 88 hashes with 88 different salts
+3 0:00:50:50 + Cracked ?
+1 0:00:50:11 + pot sync removed 1 hashes; Remaining 88 hashes with 88 different salts
+4 0:00:51:41 + pot sync removed 1 hashes; Remaining 87 hashes with 87 different salts
+2 0:00:51:39 + pot sync removed 1 hashes; Remaining 87 hashes with 87 different salts
+1 0:00:51:29 + Cracked ?
+1 0:00:51:40 + pot sync removed 1 hashes; Remaining 86 hashes with 86 different salts
+4 0:00:52:25 + pot sync removed 1 hashes; Remaining 86 hashes with 86 different salts
+3 0:00:52:24 + pot sync removed 1 hashes; Remaining 86 hashes with 86 different salts
+2 0:00:52:23 + pot sync removed 1 hashes; Remaining 86 hashes with 86 different salts
+4 0:00:54:43 + Cracked ?
+4 0:00:55:23 + Cracked ?
+3 0:00:55:19 + pot sync removed 1 hashes; Remaining 85 hashes with 85 different salts
+2 0:00:55:18 + pot sync removed 1 hashes; Remaining 85 hashes with 85 different salts
+1 0:00:55:17 + pot sync removed 1 hashes; Remaining 85 hashes with 85 different salts
+3 0:00:56:02 + pot sync removed 1 hashes; Remaining 84 hashes with 84 different salts
+2 0:00:56:01 + pot sync removed 1 hashes; Remaining 84 hashes with 84 different salts
+1 0:00:56:00 + pot sync removed 1 hashes; Remaining 84 hashes with 84 different salts
+4 0:00:57:47 + Cracked ?
+1 0:00:57:44 + Cracked ?
+4 0:00:58:11 + pot sync removed 1 hashes; Remaining 82 hashes with 82 different salts
+3 0:00:58:10 + pot sync removed 2 hashes; Remaining 82 hashes with 82 different salts
+2 0:00:58:09 + pot sync removed 2 hashes; Remaining 82 hashes with 82 different salts
+1 0:00:58:08 + pot sync removed 1 hashes; Remaining 82 hashes with 82 different salts
+1 0:00:59:25 + Cracked ?
+4 0:01:00:16 + pot sync removed 1 hashes; Remaining 81 hashes with 81 different salts
+3 0:01:00:15 + pot sync removed 1 hashes; Remaining 81 hashes with 81 different salts
+2 0:01:00:15 + pot sync removed 1 hashes; Remaining 81 hashes with 81 different salts
+3 0:01:04:06 + Cracked ?
+4 0:01:05:03 + Cracked ?
+4 0:01:05:04 + pot sync removed 1 hashes; Remaining 79 hashes with 79 different salts
+2 0:01:05:03 + pot sync removed 1 hashes; Remaining 80 hashes with 80 different salts
+1 0:01:05:00 + pot sync removed 1 hashes; Remaining 80 hashes with 80 different salts
+4 0:01:06:35 + Cracked ?
+3 0:01:06:25 + pot sync removed 1 hashes; Remaining 79 hashes with 79 different salts
+2 0:01:06:24 + pot sync removed 1 hashes; Remaining 79 hashes with 79 different salts
+1 0:01:06:21 + pot sync removed 1 hashes; Remaining 79 hashes with 79 different salts
+3 0:01:07:05 + pot sync removed 1 hashes; Remaining 78 hashes with 78 different salts
+3 0:01:07:41 Session aborted
+1 0:01:07:02 + pot sync removed 1 hashes; Remaining 78 hashes with 78 different salts
+1 0:01:07:41 Waiting for 3 children to terminate
+4 0:01:07:41 Session aborted
+2 0:01:07:03 + pot sync removed 1 hashes; Remaining 78 hashes with 78 different salts
+2 0:01:07:04 + Cracked ?
+2 0:01:07:33 + Cracked ?
+2 0:01:07:41 Session aborted
+1 0:01:07:41 Session aborted
+1 0:01:07:42 Continuing an interrupted session
+1 0:01:07:42 Loaded a total of 333 password hashes with 333 different salts
+1 0:01:07:42 Sorting salts, for performance
+1 0:01:07:42 Remaining 76 password hashes with 76 different salts
+1 0:01:07:42 Cost 1 (iteration count) is 29000 for all loaded hashes
+1 0:01:07:42 - Node numbers 1-4 of 4 (fork)
+3 0:01:07:42 Device 2: Tesla P100-PCIE-16GB
+4 0:01:07:42 Device 3: Tesla P100-PCIE-16GB
+2 0:01:07:42 Device 1: Tesla P100-PCIE-16GB
+1 0:01:07:42 Device 0: Tesla P100-PCIE-16GB
+1 0:01:07:42 Command line: /home/lupos/software/john/run/john --restore=pbk-ru 
+1 0:01:07:42 - UTF-8 input encoding enabled
+1 0:01:07:42 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:01:07:42 Sorting salts, for performance
+1 0:01:07:42 Device 0: Tesla P100-PCIE-16GB
+1 0:01:07:42 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+1 0:01:07:42 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+1 0:01:07:42 - Algorithm: PBKDF2-SHA256 OpenCL
+1 0:01:07:42 - Will reject candidates longer than 55 bytes
+1 0:01:07:42 - Candidate passwords will be buffered and tried in chunks of 14336
+3 0:01:07:42 Command line: /home/lupos/software/john/run/john --restore=pbk-ru 
+3 0:01:07:42 - UTF-8 input encoding enabled
+3 0:01:07:42 - Passwords will be stored UTF-8 encoded in .pot file
+3 0:01:07:42 Sorting salts, for performance
+3 0:01:07:42 Device 2: Tesla P100-PCIE-16GB
+3 0:01:07:42 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+3 0:01:07:42 - Will reject candidates longer than 55 bytes
+3 0:01:07:42 Proceeding with wordlist mode
+3 0:01:07:42 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+3 0:01:07:42 - memory mapping wordlist (68982956 bytes)
+3 0:01:07:42 - No word mangling rules
+2 0:01:07:42 Command line: /home/lupos/software/john/run/john --restore=pbk-ru 
+2 0:01:07:42 - UTF-8 input encoding enabled
+2 0:01:07:42 - Passwords will be stored UTF-8 encoded in .pot file
+2 0:01:07:42 Sorting salts, for performance
+2 0:01:07:42 Device 1: Tesla P100-PCIE-16GB
+2 0:01:07:42 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+2 0:01:07:42 - Will reject candidates longer than 55 bytes
+2 0:01:07:42 Proceeding with wordlist mode
+2 0:01:07:42 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+2 0:01:07:42 - memory mapping wordlist (68982956 bytes)
+2 0:01:07:42 - No word mangling rules
+4 0:01:07:42 Command line: /home/lupos/software/john/run/john --restore=pbk-ru 
+4 0:01:07:42 - UTF-8 input encoding enabled
+4 0:01:07:42 - Passwords will be stored UTF-8 encoded in .pot file
+4 0:01:07:42 Sorting salts, for performance
+4 0:01:07:42 Device 3: Tesla P100-PCIE-16GB
+4 0:01:07:42 - OpenCL LWS: 128, GWS: 14336 (both auto-tuned) (112 blocks)
+4 0:01:07:42 - Will reject candidates longer than 55 bytes
+4 0:01:07:42 Proceeding with wordlist mode
+4 0:01:07:42 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+4 0:01:07:42 - memory mapping wordlist (68982956 bytes)
+4 0:01:07:42 - No word mangling rules
+1 0:01:07:42 Proceeding with wordlist mode
+1 0:01:07:42 - Wordlist file: ../dictionaries/rockyou_first_half.txt
+1 0:01:07:42 - memory mapping wordlist (68982956 bytes)
+1 0:01:07:42 - No word mangling rules
+3 0:01:07:42 - Will distribute words across nodes
+3 0:01:07:46 GPU 2 probably invalid temp reading (-1°C).
+2 0:01:07:42 - Will distribute words across nodes
+2 0:01:07:46 GPU 1 probably invalid temp reading (-1°C).
+4 0:01:07:42 - Will distribute words across nodes
+4 0:01:07:46 GPU 3 probably invalid temp reading (-1°C).
+1 0:01:07:42 - Will distribute words across nodes
+1 0:01:07:46 GPU 0 probably invalid temp reading (-1°C).
+4 0:01:10:10 + Cracked ?
+3 0:01:10:58 + pot sync removed 1 hashes; Remaining 75 hashes with 75 different salts
+2 0:01:10:56 + pot sync removed 1 hashes; Remaining 75 hashes with 75 different salts
+2 0:01:11:05 + Cracked ?
+2 0:01:11:19 + Cracked ?
+1 0:01:10:54 + pot sync removed 1 hashes; Remaining 75 hashes with 75 different salts
+3 0:01:11:57 + Cracked ?
+3 0:01:12:14 + pot sync removed 2 hashes; Remaining 72 hashes with 72 different salts
+4 0:01:12:11 + pot sync removed 2 hashes; Remaining 73 hashes with 73 different salts
+1 0:01:12:10 + pot sync removed 2 hashes; Remaining 73 hashes with 73 different salts
+2 0:01:12:48 + pot sync removed 1 hashes; Remaining 72 hashes with 72 different salts
+1 0:01:12:47 + pot sync removed 1 hashes; Remaining 72 hashes with 72 different salts
+4 0:01:12:48 + pot sync removed 1 hashes; Remaining 72 hashes with 72 different salts
+4 0:01:16:32 + Cracked ?
+3 0:01:17:06 + pot sync removed 1 hashes; Remaining 71 hashes with 71 different salts
+2 0:01:17:04 + pot sync removed 1 hashes; Remaining 71 hashes with 71 different salts
+1 0:01:17:03 + pot sync removed 1 hashes; Remaining 71 hashes with 71 different salts
+4 0:01:17:13 + Cracked ?
+3 0:01:17:42 + pot sync removed 1 hashes; Remaining 70 hashes with 70 different salts
+3 0:01:18:22 + Cracked ?
+2 0:01:18:16 + pot sync removed 1 hashes; Remaining 70 hashes with 70 different salts
+1 0:01:17:58 + Cracked ?
+1 0:01:18:15 + pot sync removed 1 hashes; Remaining 69 hashes with 69 different salts
+1 0:01:18:16 + Cracked ?
+3 0:01:18:52 + pot sync removed 2 hashes; Remaining 67 hashes with 67 different salts
+2 0:01:18:51 + pot sync removed 3 hashes; Remaining 67 hashes with 67 different salts
+1 0:01:18:50 + pot sync removed 1 hashes; Remaining 67 hashes with 67 different salts
+1 0:01:19:24 + Cracked ?
+4 0:01:18:51 + pot sync removed 3 hashes; Remaining 67 hashes with 67 different salts
+4 0:01:19:32 + Cracked ?
+3 0:01:20:00 + pot sync removed 2 hashes; Remaining 65 hashes with 65 different salts
+3 0:01:20:40 + Cracked ?
+2 0:01:19:59 + pot sync removed 2 hashes; Remaining 65 hashes with 65 different salts
+2 0:01:20:18 + Cracked ?
+1 0:01:19:58 + pot sync removed 1 hashes; Remaining 65 hashes with 65 different salts
+4 0:01:19:59 + pot sync removed 1 hashes; Remaining 65 hashes with 65 different salts
+3 0:01:21:06 + pot sync removed 1 hashes; Remaining 63 hashes with 63 different salts
+2 0:01:21:04 + pot sync removed 1 hashes; Remaining 63 hashes with 63 different salts
+1 0:01:21:04 + pot sync removed 2 hashes; Remaining 63 hashes with 63 different salts
+1 0:01:21:12 + Cracked ?
+1 0:01:21:34 + Cracked ?
+4 0:01:21:05 + pot sync removed 2 hashes; Remaining 63 hashes with 63 different salts
+3 0:01:22:09 + pot sync removed 2 hashes; Remaining 61 hashes with 61 different salts
+2 0:01:22:08 + pot sync removed 2 hashes; Remaining 61 hashes with 61 different salts
+2 0:01:22:37 + Cracked ?
+4 0:01:22:09 + pot sync removed 2 hashes; Remaining 61 hashes with 61 different salts
+3 0:01:23:11 + pot sync removed 1 hashes; Remaining 60 hashes with 60 different salts
+1 0:01:23:08 + pot sync removed 1 hashes; Remaining 60 hashes with 60 different salts
+4 0:01:22:48 + Cracked ?
+4 0:01:23:11 + pot sync removed 1 hashes; Remaining 59 hashes with 59 different salts
+3 0:01:24:11 + pot sync removed 1 hashes; Remaining 59 hashes with 59 different salts
+2 0:01:24:10 + pot sync removed 1 hashes; Remaining 59 hashes with 59 different salts
+1 0:01:24:09 + pot sync removed 1 hashes; Remaining 59 hashes with 59 different salts
+4 0:01:24:32 + Cracked ?
+4 0:01:24:38 + Cracked ?
+3 0:01:25:11 + pot sync removed 2 hashes; Remaining 57 hashes with 57 different salts
+2 0:01:25:10 + pot sync removed 2 hashes; Remaining 57 hashes with 57 different salts
+1 0:01:25:09 + pot sync removed 2 hashes; Remaining 57 hashes with 57 different salts
+3 0:01:28:54 + Cracked ?
+3 0:01:30:25 Session completed
+1 0:01:29:56 + pot sync removed 1 hashes; Remaining 56 hashes with 56 different salts
+1 0:01:30:27 Waiting for 3 children to terminate
+2 0:01:29:58 + pot sync removed 1 hashes; Remaining 56 hashes with 56 different salts
+4 0:01:29:57 + pot sync removed 1 hashes; Remaining 56 hashes with 56 different salts
+4 0:01:30:48 Session completed
+2 0:01:30:49 Session completed
+1 0:01:30:49 Session completed

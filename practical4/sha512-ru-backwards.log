@@ -1,0 +1,116 @@
+1 0:00:00:00 Starting a new session
+1 0:00:00:00 Loaded a total of 331 password hashes with 331 different salts
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 Remaining 136 password hashes with 136 different salts
+1 0:00:00:00 Cost 1 (iteration count) is 5000 for all loaded hashes
+1 0:00:00:00 - Node numbers 1-4 of 4 (fork)
+1 0:00:00:00 Device 0: Tesla V100-SXM2-16GB
+1 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=sha512-ru-backwards --fork=4 --devices=0,1,2,3 --pot=practical4.potfile --format=sha512crypt-opencl --wordlist=../dictionaries/rockyou_backwards.txt hashes/SHA512.hashes 
+1 0:00:00:00 - UTF-8 input encoding enabled
+1 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+1 0:00:00:00 Sorting salts, for performance
+1 0:00:00:00 - OpenCL LWS: 32, GWS: 20480 (both auto-tuned) (640 blocks)
+1 0:00:00:00 - Hash type: sha512crypt-opencl, crypt(3) $6$ (min-len 0, max-len 7 [worst case UTF-8] to 23 [ASCII])
+1 0:00:00:00 - Algorithm: SHA512 OpenCL
+1 0:00:00:00 - Will reject candidates longer than 23 bytes
+1 0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 20480
+2 0:00:00:00 Device 1: Tesla V100-SXM2-16GB
+2 0:00:00:00 Command line: /home/lupos/software/john/run/john --session=sha512-ru-backwards --fork=4 --devices=0,1,2,3 --pot=practical4.potfile --format=sha512crypt-opencl --wordlist=../dictionaries/rockyou_backwards.txt hashes/SHA512.hashes 
+2 0:00:00:00 - UTF-8 input encoding enabled
+2 0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+2 0:00:00:00 Sorting salts, for performance
+2 0:00:00:00 - OpenCL LWS: 32, GWS: 20480 (both auto-tuned) (640 blocks)
+2 0:00:00:00 - Will reject candidates longer than 23 bytes
+2 0:00:00:00 Proceeding with wordlist mode
+2 0:00:00:00 - Wordlist file: ../dictionaries/rockyou_backwards.txt
+2 0:00:00:00 - memory mapping wordlist (139921497 bytes)
+2 0:00:00:00 - No word mangling rules
+1 0:00:00:00 Proceeding with wordlist mode
+1 0:00:00:00 - Wordlist file: ../dictionaries/rockyou_backwards.txt
+1 0:00:00:00 - memory mapping wordlist (139921497 bytes)
+1 0:00:00:00 - No word mangling rules
+2 0:00:00:00 - Will distribute words across nodes
+2 0:00:00:04 GPU 1 probably invalid temp reading (-1°C).
+1 0:00:00:00 - Will distribute words across nodes
+1 0:00:00:04 GPU 0 probably invalid temp reading (-1°C).
+1 0:00:00:51 + Cracked ?
+2 0:00:01:22 + pot sync removed 1 hashes; Remaining 135 hashes with 135 different salts
+1 0:00:01:21 + Cracked ?
+1 0:00:02:29 + Cracked ?
+2 0:00:02:16 + pot sync removed 1 hashes; Remaining 134 hashes with 134 different salts
+2 0:00:02:22 + Cracked ?
+1 0:00:03:01 + pot sync removed 1 hashes; Remaining 132 hashes with 132 different salts
+2 0:00:03:10 + pot sync removed 1 hashes; Remaining 132 hashes with 132 different salts
+2 0:00:04:04 + Cracked ?
+1 0:00:04:23 + Cracked ?
+2 0:00:05:23 + pot sync removed 1 hashes; Remaining 130 hashes with 130 different salts
+1 0:00:05:07 + pot sync removed 1 hashes; Remaining 130 hashes with 130 different salts
+1 0:00:06:25 + Cracked ?
+2 0:00:07:09 + pot sync removed 1 hashes; Remaining 129 hashes with 129 different salts
+2 0:00:07:37 + Cracked ?
+2 0:00:08:06 + Cracked ?
+1 0:00:08:02 + pot sync removed 1 hashes; Remaining 128 hashes with 128 different salts
+1 0:00:09:02 + Cracked ?
+1 0:00:09:15 + pot sync removed 1 hashes; Remaining 126 hashes with 126 different salts
+1 0:00:09:36 + Cracked ?
+2 0:00:10:10 + pot sync removed 2 hashes; Remaining 125 hashes with 125 different salts
+1 0:00:11:56 + Cracked ?
+2 0:00:12:15 + pot sync removed 1 hashes; Remaining 124 hashes with 124 different salts
+1 0:00:14:06 + Cracked ?
+2 0:00:15:11 + pot sync removed 1 hashes; Remaining 123 hashes with 123 different salts
+1 0:00:15:34 + Cracked ?
+1 0:00:16:33 + Cracked ?
+2 0:00:16:00 + pot sync removed 1 hashes; Remaining 122 hashes with 122 different salts
+2 0:00:16:34 + Cracked ?
+1 0:00:17:11 + pot sync removed 1 hashes; Remaining 120 hashes with 120 different salts
+2 0:00:17:14 + pot sync removed 1 hashes; Remaining 120 hashes with 120 different salts
+2 0:00:17:52 + Cracked ?
+1 0:00:18:20 + pot sync removed 1 hashes; Remaining 119 hashes with 119 different salts
+1 0:00:19:54 + Cracked ?
+2 0:00:20:02 + pot sync removed 1 hashes; Remaining 118 hashes with 118 different salts
+1 0:00:22:27 + Cracked ?
+1 0:00:22:32 + Cracked ?
+2 0:00:22:16 + Cracked ?
+1 0:00:23:15 + pot sync removed 1 hashes; Remaining 115 hashes with 115 different salts
+1 0:00:23:38 + Cracked ?
+2 0:00:23:12 + pot sync removed 2 hashes; Remaining 115 hashes with 115 different salts
+1 0:00:24:16 + Cracked ?
+2 0:00:24:22 + pot sync removed 1 hashes; Remaining 114 hashes with 114 different salts
+2 0:00:24:34 + Cracked ?
+2 0:00:25:01 + Cracked ?
+2 0:00:25:08 + pot sync removed 1 hashes; Remaining 111 hashes with 111 different salts
+1 0:00:25:04 + pot sync removed 1 hashes; Remaining 112 hashes with 112 different salts
+1 0:00:25:17 + Cracked ?
+2 0:00:26:15 + pot sync removed 1 hashes; Remaining 110 hashes with 110 different salts
+1 0:00:26:08 + pot sync removed 1 hashes; Remaining 110 hashes with 110 different salts
+1 0:00:28:18 + Cracked ?
+1 0:00:28:35 + Cracked ?
+1 0:00:28:40 + Cracked ?
+2 0:00:28:17 + Cracked ?
+2 0:00:29:13 + pot sync removed 3 hashes; Remaining 106 hashes with 106 different salts
+1 0:00:29:17 + pot sync removed 1 hashes; Remaining 106 hashes with 106 different salts
+2 0:00:32:07 + Cracked ?
+2 0:00:32:10 + Cracked ?
+1 0:00:33:01 + pot sync removed 2 hashes; Remaining 104 hashes with 104 different salts
+1 0:00:33:24 + Cracked ?
+2 0:00:34:11 + pot sync removed 1 hashes; Remaining 103 hashes with 103 different salts
+2 0:00:37:01 + Cracked ?
+2 0:00:37:27 + Cracked ?
+2 0:00:37:58 + Cracked ?
+1 0:00:38:18 + pot sync removed 3 hashes; Remaining 100 hashes with 100 different salts
+1 0:00:38:28 + Cracked ?
+1 0:00:38:38 + Cracked ?
+1 0:00:39:58 + Cracked ?
+2 0:00:39:00 + pot sync removed 2 hashes; Remaining 98 hashes with 98 different salts
+2 0:00:39:13 + Cracked ?
+2 0:00:40:00 + pot sync removed 1 hashes; Remaining 96 hashes with 96 different salts
+1 0:00:40:11 + pot sync removed 1 hashes; Remaining 96 hashes with 96 different salts
+1 0:00:44:08 + Cracked ?
+2 0:00:45:10 + pot sync removed 1 hashes; Remaining 95 hashes with 95 different salts
+2 0:00:48:09 + Cracked ?
+1 0:00:49:02 + pot sync removed 1 hashes; Remaining 94 hashes with 94 different salts
+2 0:00:54:23 + Cracked ?
+1 0:00:55:04 + pot sync removed 1 hashes; Remaining 93 hashes with 93 different salts
+1 0:01:00:26 Waiting for 3 children to terminate
+2 0:01:02:03 Session completed
+1 0:01:02:04 Main process session completed, but some child processes failed

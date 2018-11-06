@@ -1,0 +1,125 @@
+#! /bin/bash
+
+command=$1
+pwgen_increment=100000
+pwgen_file="../dictionaries/pwgen_5_chars.txt"
+
+infile="8hashes_hc.txt"
+outdir="hashes"
+
+# infile="8hashes.txt"
+# outdir="hashes_john"
+
+potfile="practical4.potfile"
+
+sha1="$outdir/SHA1.hashes"
+sha512="$outdir/SHA512.hashes"
+pbkdf2="$outdir/pbkdf2.hashes"
+argon="$outdir/argon.hashes"
+
+sha1_reg='^\$sha1\$'
+sha512_reg='^\$6\$'
+# pbkdf2_reg='^\$pbkdf2-sha256'
+pbkdf2_reg='sha256'
+argon_reg='^\$argon2i\$'
+
+
+total_hashes=$(wc -l < $infile)
+
+function awkIt() {
+  awk -v reg=$1 '$0~reg' $2
+}
+
+function partition() {
+	# infile=$2
+	# echo "Using infile " $infile
+
+  # Grab SHA 1 crypt
+  awkIt $sha1_reg  $infile > $sha1
+  sha1_no_hashes=$(wc -l < $sha1)
+
+  # Grab SHA 512 crypt -m 1800
+  awkIt $sha512_reg $infile > $sha512
+  sha512_no_hashes=$(wc -l < $sha512)
+
+  # Grab pbkdf2SHA
+  awkIt $pbkdf2_reg $infile > $pbkdf2
+  pbkdf2_no_hashes=$(wc -l < $pbkdf2)
+
+  # Grab Argon
+  awkIt $argon_reg $infile > $argon
+  argon_no_hashes=$(wc -l < $argon)
+
+  printf "SHA1: %s hashes \n" $sha1_no_hashes
+  printf "SHA512: %s hashes \n" $sha512_no_hashes
+  printf "pbkdf2SHA: %s hashes \n" $pbkdf2_no_hashes
+  printf "argon: %s hashes \n" $argon_no_hashes
+
+  ((total_parsed_hashes=$sha1_no_hashes + $sha512_no_hashes + pbkdf2_no_hashes + argon_no_hashes))
+  printf "Total parsed hashes: %s\n" $total_parsed_hashes
+}
+
+function getProgress() {
+  printf "$1: %s / %s \n" $(awkIt $2 $potfile | wc -l) $(awkIt $2 $infile | wc -l)
+}
+
+function rockyoucomp() {
+	tmpfile="derp.txt"
+	rockyou="../dictionaries/rockyou.txt"
+	matches=0
+	substrings=0
+	awk -F ":" '{print $2}' $potfile > $tmpfile
+	num_passwords=$(wc -l < $tmpfile)
+	while read password; do
+		# passlen=${#password}
+		# # printf "Checking %s\n" $password
+		# match=$(grep "$password" $rockyou)
+		# # echo $match
+		# len=${#match}
+		# if [ $len -eq $passlen ]; then
+		# 	matches=$((matches+1))
+		# elif [ $len -gt $passlen ]; then
+		# 	substrings=$((substrings+1))
+		if grep -q "^$password$" $rockyou; then
+			matches=$((matches+1))
+			# printf "Found match for %s\n" $password
+		elif grep -q ".*$password.+" $rockyou; then
+			substrings=$((substrings+1))		
+		elif grep -q ".+$password.*" $rockyou; then
+			substrings=$((substrings+1))
+		fi
+	done < $tmpfile
+	printf "%s matches, %s substrings out of %s passwords in rockyou.txt\n" $matches $substrings $num_passwords
+}
+
+if [ "$command" == "partition" ]; then
+  partition
+elif [ "$command" == "progress" ]; then
+  getProgress DES $des_reg
+  getProgress MD5 $md5_reg
+  getProgress SHA256 $sha256_reg
+  getProgress SHA512 $sha512_reg
+  getProgress pbkdf2 $pbkdf2_reg
+  getProgress argon $argon_reg
+elif [ "$command" == "awkIt" ]; then
+  awkIt $2 $3
+elif [ "$command" == "passwords" ]; then
+	printf "Password Length\t\tHashLength\t\tPassword\t\tHash\n"
+  awk -F ":" '{ print length($2) "\t\t\t" length($1) "\t\t\t" $2 "\t\t\t" $1 }' $potfile| sort -k1 -k2 -n
+elif [ "$command" == "rockyoucomp" ]; then
+	rockyoucomp
+elif [ "$command" == "pwgen_inc" ]; then 
+  len=$(cat $pwgen_file | wc -l)
+  desired_len=$((len+pwgen_increment))
+  echo "Initial length of" $pwgen_file ": " $init_len
+  while [ $len -lt $desired_len ]; do
+    echo "Creating: " $pwgen_increment " passwords"
+    pwgen -0 -A 5 $pwgen_increment >> $pwgen_file
+    sort -u $pwgen_file > tmp
+    mv tmp $pwgen_file
+    len=$(cat $pwgen_file | wc -l)
+    echo "Current Length: " $len
+  done
+else
+  echo "No command given"
+fi

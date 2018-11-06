@@ -151,6 +151,13 @@ I think a small subset of rockyou (eg less 5 chars lower) + some numeric numbers
 
 ### pwgen lol
 Just generated a huge 200k-800k wordlist using pwgen -O -A 5 800000
+I'm dumb and didn't realize pwgen would generate duplicates
+So I wrote a script to generate not dupes.
+Was hard pressed to generate 300k not dupes with those params
 - Already brute forced DES, MD5 and SHA256
-- SHA512: Running on GPU
-- PBKDF2: Running on AWs
+- SHA512: ~Running on GPU~ I should run this again with the new wordlist, its only like 2 hours
+- PBKDF2: Running on AWS 
+	- I got a few from this
+	- Abandoned the session and running it again on my GPU with the good wordlist.
+
+### Why the hell are we using g instances?

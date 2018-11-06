@@ -4,7 +4,7 @@ command=$1
 pwgen_increment=100000
 pwgen_file="../dictionaries/pwgen_5_chars.txt"
 
-infile="8hashes_hc.txt"
+infile="layer9_hc.hashes"
 outdir="hashes"
 
 # infile="8hashes.txt"

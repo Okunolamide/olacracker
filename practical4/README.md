@@ -161,3 +161,15 @@ Was hard pressed to generate 300k not dupes with those params
 	- Abandoned the session and running it again on my GPU with the good wordlist.
 
 ### Why the hell are we using g instances?
+
+
+### Benchmarking the RH compatible GPU Instances
+```hashcat -b -m 10900``` (Pbkdf2)
+- P2.x (1 Tesla K80)
+	- Speed.#1.........:   259.1 kH/s (47.17ms) @ Accel:64 Loops:62 Thr:256 Vec:1
+- P2.8
+	- Not allowed
+- P3.2
+	- We might be able to but there was no capacity left when I tried
+- G2.8
+	- I was definitely running this through RH but through AWS console fails

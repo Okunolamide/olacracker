@@ -165,11 +165,30 @@ Was hard pressed to generate 300k not dupes with those params
 
 ### Benchmarking the RH compatible GPU Instances
 ```hashcat -b -m 10900``` (Pbkdf2)
-- P2.x (1 Tesla K80)
+- P2.x (1 Tesla K80) ~30c an hour
 	- Speed.#1.........:   259.1 kH/s (47.17ms) @ Accel:64 Loops:62 Thr:256 Vec:1
-- P2.8
-	- Not allowed
-- P3.2
-	- We might be able to but there was no capacity left when I tried
-- G2.8
+- P3.2 (1x Tesla v100) ~75c per hour
+    - Not allowed Spots on RH
+    - Might be able to run on demand but its $3 per hour
+    - Can run this on google cloud
+    ```Speed.#1.........:  2777.0 kH/s (65.25ms) @ Accel:64 Loops:62 Thr:640 Vec:1```
+- P2.8 (4xTesla v100)
+	- Not allowed on RH, can do on GC
+- G2.8 4x Something crap ~85c an hour 
 	- I was definitely running this through RH but through AWS console fails
+    - Works if launched through RH
+    ```
+    Speed.#1.........:    70494 H/s (54.94ms) @ Accel:32 Loops:15 Thr:1024 Vec:1
+    Speed.#2.........:    70501 H/s (54.95ms) @ Accel:32 Loops:15 Thr:1024 Vec:1
+    Speed.#3.........:    70525 H/s (54.93ms) @ Accel:32 Loops:15 Thr:1024 Vec:1
+    Speed.#4.........:    70558 H/s (54.92ms) @ Accel:32 Loops:15 Thr:1024 Vec:1
+    Speed.#*.........:   282.1 kH/s
+    ```
+    - lol @ performance
+- G3.8 (2xTesla M60) ~72c / hour
+    -
+    ```
+    Speed.#1.........:   571.4 kH/s (51.69ms) @ Accel:128 Loops:62 Thr:256 Vec:1
+    Speed.#2.........:   576.2 kH/s (51.25ms) @ Accel:128 Loops:62 Thr:256 Vec:1
+    Speed.#*.........:  1147.6 kH/s
+    ```

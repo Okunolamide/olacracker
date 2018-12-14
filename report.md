@@ -105,11 +105,28 @@ Finally in order to crack the final passwords, all of the 4 character words in t
 
 
 ### Inferno Ball
+The inferno ball practical turned out to be rather simple for all layers apart from the crackstation layer. Initially it looked like a lot of orchestration would be required as even the _"fast"_ algorithms were very slow due to the tweaked parameters (e.g. number of rounds). Some basic benchmarking was done on each of the tweaked hash algorithms in order to find the optimum cracking order of `pbkdf2`, `sha1`, `sha512`. Aron Hoffmann wrote some python scripts to handle checking the secrets and descending into inner layers. We also began writing some orchestration code. However by the time the code was taking shape, the easter eggs had been discovered and there was simply no point in spending any time trying to write orchestration code. Instead, Aron could simply run the relatively small wordlists on his GTX 1080 and we progressed through the first six layers very quickly.
+
+Layer 7 proved to be a challenge and required some research into keyboard walks. I began generating wordlists using Hashcat's [kwprocessor](https://github.com/hashcat/kwprocessor). This was quite challenging as the algorithms were very slow and the keyboard walks could have been anything. Ultimately however I found a premade keyboard-walk wordlist online which got us through the layer.
+
+The final challenging layer was the Crackstation layer. Crackstation is a massive wordlist and required a **collousal** amount of compute power. However as I was the only member of my team with a Google Cloud account, I solved the layer alone simply by running 4 Tesla V100s for several days and spending over €120 of my €260 free Google Cloud budget. I initially considered switching back to Rosetta Hub to burn through the teams remaining budgets, but after re-examining the performance table above, it became clear that this wasn't worth the time. As we had plenty of time remaining, I just opted to leave Google Cloud running for a few days.
 
 
 
 ## Module evaluation (1 page)
+### What I Liked
+I enjoyed most of the guest lecture content, especially the lectures surrounding GPUs and OpenCL. I also enjoyed Stephen's security lecture toward the end of the semester and it peaked my interest for the Security module next semester. 
 
+The practicals were a great idea and have the potential to be great assignments! Understanding and building distributed, scalable systems is obviously extremelly important and having access to €100 worth of compute power has the potential for some really interesting projects. 
+
+### What I Disliked
+I understand that this is the first year of the module and that there was far more students taking this module than anticipated. However, in my opinion the module was very unsatisfactory.
+
+I felt that the lecture content was extremelly lacking. I appreciate that different lectures have different styles of teaching, but in my opinion the lectures were very disorganized and unprepared. There was no source material and the lectures seemed to just be ramblings from one topic to another. 
+
+Unfortunately the assignments ended up having absolutely nothing to do with scalability and absolutely everything to do with figuring out which password lists were used to generate the hashes. There was no benefit whatsoever in trying to build a system at all, nevermind a scalable one. 
+
+The assesment was also very unclear until long after the assigments were completed, especially for the paper reviews. At the end of the day students have to balance their time across multiple modules and have to allocate their time based on the amount of credit on offer. 
 
 Say what you liked/disliked about the module and why.
 There's no need to say that RosettaHub is creaky, we

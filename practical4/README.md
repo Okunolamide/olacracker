@@ -167,13 +167,15 @@ Was hard pressed to generate 300k not dupes with those params
 ```hashcat -b -m 10900``` (Pbkdf2)
 - P2.x (1 Tesla K80) ~30c an hour
 	- Speed.#1.........:   259.1 kH/s (47.17ms) @ Accel:64 Loops:62 Thr:256 Vec:1
-- P3.2 (1x Tesla v100) ~75c per hour
+- P3.2 (1x Tesla v100) ~99c per hour
     - Not allowed Spots on RH
     - Might be able to run on demand but its $3 per hour
     - Can run this on google cloud
     ```Speed.#1.........:  2777.0 kH/s (65.25ms) @ Accel:64 Loops:62 Thr:640 Vec:1```
-- P2.8 (4xTesla v100)
+- P3.8 (4xTesla v100)
 	- Not allowed on RH, can do on GC
+    - Assumign 4x so 11100 kH/s
+    - €2.61 per hour
 - G2.8 4x Something crap ~85c an hour 
 	- I was definitely running this through RH but through AWS console fails
     - Works if launched through RH
